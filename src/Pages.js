@@ -43,7 +43,9 @@ const pages = [
       new Slide(
         "Work",
         <div>
-          <h1>Work</h1>
+          <div style={{ textAlign: "center" }}>
+            <h1>Work</h1>
+          </div>
           <h2>Founder and Tutor of <a href="https://tutors.com/nj/sayreville/math-tutors/aaron-cheng-tutoring">A* Tutoring</a></h2>
           <p>2013 - Present<br />Private tutoring for programming, math, physics, music, and English</p>
           <h2>Math Tutor at Mathnasium Learning Center</h2>
