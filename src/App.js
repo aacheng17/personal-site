@@ -1,26 +1,51 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import './App.css'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import Dots from "./components/Dots.js"
+import Page from "./pages/Page.js"
+import pages from "./Pages.js"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+var routes = [], navList = [];
+for (var i=0;i<pages.length;i++) {
+  var page = pages[i];
+  routes.push(
+    <Route exact path={page.path} key={`route${i}`}>
+      <Page slides={page.slides} />
+    </Route>
+  );
+  navList.push(
+    <li key={`navList${i}`}>
+      <Link to={page.path}>{page.navLink}</Link>
+    </li>
   );
 }
 
-export default App;
+export default function App() {
+  return (
+    <div className="div-app">
+      <div>
+        <Dots />
+      </div>
+      <div>
+        <Router>
+          <ul className="Nav-list">
+            {navList}
+          </ul>
+          
+          <hr />
+
+          <Switch>
+            <div className="centered">
+              {routes}
+            </div>
+          </Switch>
+        </Router>
+      </div>
+    </div>
+  );
+}

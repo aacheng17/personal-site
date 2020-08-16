@@ -1,8 +1,15 @@
+@font-face {
+  font-family: 'Arimo';
+  src: local('Arimo'), url(./fonts/Arimo-Regular.ttf) format('truetype');
+}
+
 body {
+  background-color: #ff8080; /*pink*/
+  /*background-color: #00cc99;*/ /*green*/
+  /*background-color: #c2c2d6;*/ /*purple gray*/
+  /*background-color: #fdfdfd;*/ /*white ish*/
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Arimo';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +17,31 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dots-container {
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:-1;
+  overflow:hidden;
+  padding-bottom:500em;
+  margin-bottom:-500em;
+}
+
+.div-app {
+  overflow: hidden;
+  width: 100%;
+}
+
+h2 {
+  margin-bottom: -12px;
 }

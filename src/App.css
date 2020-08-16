@@ -1,38 +1,52 @@
-.App {
+@font-face {
+  font-family: 'Arimo';
+  src: url(./fonts/Arimo-Regular.ttf);
+}
+/*
+@font-face {
+  font-family: 'Arimo';
+  src: url(./fonts/Arimo-Bold.ttf);
+  font-weight: 'bold';
+}
+@font-face {
+  font-family: 'Arimo';
+  src: url(./fonts/Arimo-Italic.ttf);
+  font-style: 'italic';
+}
+@font-face {
+  font-family: 'Arimo';
+  src: url(./fonts/Arimo-BoldItalic.ttf);
+  font-weight: 'bold';
+  font-style: 'italic';
+}
+*/
+
+.Nav-list {
+  display: flex;
+  align-items: stretch; /* Default */
+  justify-content: space-between;
+  margin: 25px 0px;
+  padding: 0;
+}
+.Nav-list > * {
+  display: block;
+  flex: 0 1 auto; /* Default */
+  list-style-type: none;
+  width: 25%;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Nav-list > * > * {
+  font-family: 'Arimo';
+  color: #020202;
+  text-decoration: none;
+}
+.Nav-home {
+  font-size: 20px;
+  font-weight: 'bold';
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+hr {
+  height: 1.5px;
+  background-color: #020202;
+  border-width: 0;
 }
