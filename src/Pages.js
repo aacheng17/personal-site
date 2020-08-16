@@ -61,7 +61,9 @@ const pages = [
       new Slide(
         "Skills",
         <div>
-          <h1>Skills</h1>
+          <div style={{ textAlign: "center" }}>
+            <h1>Skills</h1>
+          </div>
           <h2>Experienced</h2>
           <p>Python, Java</p>
           <h2>Proficient</h2>
@@ -81,7 +83,9 @@ const pages = [
       new Slide(
         "Education",
         <div>
-          <h1>Education</h1>
+          <div style={{ textAlign: "center" }}>
+            <h1>Education</h1>
+          </div>
           <p>
             Computer Science, B.S. from Rutgers University anticipated May 2021<br/>
             Philosophy Minor<br/>
