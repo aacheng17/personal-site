@@ -1,0 +1,28 @@
+.Slideshow {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.Slideshow > * {
+  display: block;
+}
+
+.arrow-wrapper {
+  min-width: 15%;
+  text-align: center;
+  display: inline;
+}
+
+button {
+  background-color: Transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #020202;
+  display: inline-block;
+}
+
+.fade-wrapper {
+  width: 50%;
+}
