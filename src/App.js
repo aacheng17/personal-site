@@ -40,9 +40,7 @@ export default function App() {
           <hr />
 
           <Switch>
-            <div className="centered">
-              {routes}
-            </div>
+            {routes}
           </Switch>
         </Router>
       </div>
