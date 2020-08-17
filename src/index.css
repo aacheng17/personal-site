@@ -4,10 +4,10 @@
 }
 
 body {
-  background-color: #ff8080; /*pink*/
+  /*background-color: #ff8080; /*pink*/
   /*background-color: #00cc99;*/ /*green*/
   /*background-color: #c2c2d6;*/ /*purple gray*/
-  /*background-color: #fdfdfd;*/ /*white ish*/
+  background-color: #fdfdfd; /*white ish*/
   margin: 0;
   font-family: 'Arimo';
   -webkit-font-smoothing: antialiased;
@@ -17,12 +17,6 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-
-.centered {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .dots-container {
