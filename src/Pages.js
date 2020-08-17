@@ -23,15 +23,24 @@ const pages = [
       new Slide(
         "",
         <div>
-          <h2>
+          <h3>
             Computer Science Major at Rutgers University
             <br />
             Founder and Teacher at A* Tutoring
             <br />
             Jazz and Pop Gig Pianist
             <br />
-            _
-          </h2>
+          </h3>
+          <a href="https://github.com/aacheng17">Github</a>
+          <br/>
+          <a href="https://www.linkedin.com/in/aaron-cheng-b93a711a7/">LinkedIn</a>
+          <br/>
+          <a href="https://app.joinhandshake.com/users/9912209">HandShake</a>
+          <br/>
+          <a href="https://aacheng.itch.io">itch.io</a>
+          <br/>
+          <a href="https://tutors.com/nj/sayreville/math-tutors/aaron-cheng-tutoring">A* Tutoring</a>
+
         </div>
       )
     ]
@@ -134,21 +143,9 @@ const pages = [
     "Portfolio",
     [
       new Slide(
-        "todo",
+        "Projects",
         <div>
-          todo
-        </div>
-      )
-    ],
-  ),
-  new Page(
-    "/interests",
-    "Interests",
-    [
-      new Slide(
-        "todo",
-        <div>
-          todo
+          RatingsSite, BadTranslator, personal-site, DatabasesProject, games
         </div>
       )
     ],
