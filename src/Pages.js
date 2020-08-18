@@ -145,7 +145,51 @@ const pages = [
       new Slide(
         "Projects",
         <div>
-          RatingsSite, BadTranslator, personal-site, DatabasesProject, games
+          <h2>Personal Site</h2>
+          <p>
+            Website you're currently on<br/>
+            Javascript<br/>
+            <a href="https://github.com/aacheng17/personal-site">Github</a>
+          </p>
+          <h2>Ratings Site</h2>
+          <p>
+            Website for aggregated movie ratings<br/>
+            Javascript, Java, Python<br/>
+            <a href="https://ratingssite.azurewebsites.net">Link to site</a><br/>
+            <a href="google.com">Github</a>
+          </p>
+          <h2>BadTranslator</h2>
+          <p>
+            Website for translating things badly<br/>
+            Dart, Javascript<br/>
+            <a href="https://badtranslator-284415.web.app">Link to site</a><br/>
+            <a href="https://github.com/aacheng17/BadTranslator">Github</a>
+          </p>
+          <h2>Steal Shield Stab</h2>
+          <p>
+            Game about fighting and bluffing friends<br/>
+            GameMaker Language<br/>
+            <a href="https://aacheng.itch.io/stealshieldstab">itch.io</a>
+          </p>
+          <h2>TaxiGame</h2>
+          <p>
+            Game about zipping through streets as a taxi<br/>
+            Java<br/>
+            <a href="https://aacheng.itch.io/taxigame">itch.io</a><br/>
+            <a href="https://github.com/RyanCirincione/TaxiGame">Github</a>
+          </p>
+          <h2>The Cactus</h2>
+          <p>
+            Game about surviving a cactus<br/>
+            GameMaker Language<br/>
+            <a href="https://aacheng.itch.io/the-cactus">itch.io</a>
+          </p>
+          <h2>Morse</h2>
+          <p>
+            Game about clicking at the right time<br/>
+            GameMaker Language<br/>
+            <a href="https://aacheng.itch.io/morse">itch.io</a>
+          </p>
         </div>
       )
     ],
