@@ -7,7 +7,7 @@ import {
   Link
 } from "react-router-dom";
 import Dots from "./components/Dots.js"
-import Page from "./pages/Page.js"
+import Page from "./components/Page.js"
 import pages from "./Pages.js"
 
 var navList = [];
