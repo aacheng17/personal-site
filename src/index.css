@@ -3,6 +3,10 @@
   src: local('Arimo'), url(./fonts/Arimo-Regular.ttf) format('truetype');
 }
 
+html {
+  overflow-y: scroll;
+}
+
 body {
   /*background-color: #ff8080; /*pink*/
   /*background-color: #00cc99;*/ /*green*/
