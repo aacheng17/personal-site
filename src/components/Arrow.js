@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./Arrow.css";
+import "./style/Arrow.css";
 
 export default class Arrow extends Component {
   constructor(props) {
