@@ -25,7 +25,7 @@ class View extends Component {
           <Link className="Nav-link" to={page.path}
             style={{
               fontWeight: (currentPage ? "bold" : "normal"),
-              fontSize: (currentPage ? "120%" : "inherit")
+              fontSize: (currentPage ? "20px" : "inherit")
             }}
           >
             {page.navLink}
@@ -33,6 +33,11 @@ class View extends Component {
         </li>
       );
     }
+    navList.push(
+      <li key='navListSparkles'>
+        <button className="Nav-link">hello</button>
+      </li>
+    );
 
     return (
       <>
