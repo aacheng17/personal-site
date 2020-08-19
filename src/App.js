@@ -3,33 +3,18 @@ import './App.css'
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import Dots from "./components/Dots.js"
-import Page from "./components/Page.js"
 import pages from "./Pages.js"
-
-var navList = [];
-for (var i=0;i<pages.length;i++) {
-  var page = pages[i];
-  navList.push(
-    <li key={`navList${i}`}>
-      <Link to={page.path} style={{}}>{page.navLink}</Link>
-    </li>
-  );
-}
+import View from "./components/View.js"
 
 var routes = [];
 for (var i=0;i<pages.length;i++) {
   var page = pages[i];
   routes.push(
     <Route exact path={page.path} key={`route${i}`}>
-      <ul className="Nav-list">
-        {navList}
-      </ul>
-      <hr />
-      <Page slides={page.slides} />
+      <View index={i} pages={pages}/>
     </Route>
   );
 }
