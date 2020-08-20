@@ -35,14 +35,11 @@
   width: 25%;
   text-align: center;
 }
-.Nav-list > * > * {
+.Nav-link {
   font-family: 'Arimo';
   color: #020202;
   text-decoration: none;
-}
-.Nav-home {
-  font-size: 20px;
-  font-weight: 'bold';
+  font-size: 15px;
 }
 
 hr {
