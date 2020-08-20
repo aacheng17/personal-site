@@ -5,12 +5,16 @@ import {
 } from "react-router-dom";
 import "./style/View.css"
 import Page from "./Page.js"
+import SparklesButton from "./SparklesButton.js"
 
 class View extends Component {
   constructor(props) {
     super(props)
-    this.state = {
-    }
+    this.handleSparkles = this.handleSparkles.bind(this)
+  }
+
+  handleSparkles() {
+    this.props.handlSparkles();
   }
 
   render() {
@@ -35,7 +39,7 @@ class View extends Component {
     }
     navList.push(
       <li key='navListSparkles'>
-        <button className="Nav-link">hello</button>
+        <SparklesButton className='Nav-link' onClick={this.handleSparkles()}/>
       </li>
     );
 
