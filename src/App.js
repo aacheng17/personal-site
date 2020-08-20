@@ -9,16 +9,12 @@ import Dots from "./components/Dots.js"
 import pages from "./Pages.js"
 import View from "./components/View.js"
 
-function handlSparkles() {
-
-}
-
 var routes = [];
 for (var i=0;i<pages.length;i++) {
   var page = pages[i];
   routes.push(
     <Route exact path={page.path} key={`route${i}`}>
-      <View onclick={this.handleSparkles} index={i} pages={pages}/>
+      <View onSparkles={()=>console.log("Sparkles!")} index={i} pages={pages}/>
     </Route>
   );
 }
