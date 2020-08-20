@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-const NUM_DOTS = 500
+const NUM_DOTS = 200
 
 function getColor(){ 
   return "hsl(" + 360 * Math.random() + ',' +
