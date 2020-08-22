@@ -15,7 +15,8 @@ export default class Dots extends Component {
       mouseXOrig: 0,
       mouseYOrig: 0,
       mouseX: 0,
-      mouseY: 0
+      mouseY: 0,
+      pageYOffset: 0
     }
 
     this.NUM_DOTS = 150 + 100 * Math.random();
@@ -59,6 +60,10 @@ export default class Dots extends Component {
     }
   }
 
+  scrollHandler(event) {
+    this.setState({ pageYOffset : window.pageYOffset });
+  }
+
   componentDidMount() {
     this.interval = setInterval(
       () => {
@@ -70,12 +75,14 @@ export default class Dots extends Component {
       () => {
         window.addEventListener('mousemove', (event) => this.mouseMoveHandler(event));
         clearInterval(this.mouseInterval);
+        window.addEventListener('scroll', (event) => this.scrollHandler(event));
       }, 300
     );
   }
 
   componentWillUnmount() {
     //window.removeEventListener('mousemove', (event) => this.mouseMoveHandler(event));
+    //window.removeEventListener('scroll', (event) => this.scrollHandler(event));
   }
 
   render() {
@@ -87,7 +94,7 @@ export default class Dots extends Component {
           position: 'absolute',
           transition: this.state.mouseMoved ? "" : `left ${this.time[i]}ms, top ${this.time[i]}ms`,
           left: this.state.mounted ? (this.state.mouseMoved ? this.x[i] + (this.state.mouseX - this.state.mouseXOrig)/(-this.z[i]) : this.x[i]) : -Math.abs(this.x[i])-200,
-          top: this.state.mounted ? (this.state.mouseMoved ? this.y[i] + (this.state.mouseY - this.state.mouseYOrig)/(-this.z[i]) : this.y[i]) : -Math.abs(this.y[i])-200,
+          top: this.state.mounted ? (this.state.mouseMoved ? this.y[i] + (this.state.mouseY - this.state.mouseYOrig + this.state.pageYOffset/2) /(-this.z[i]) : this.y[i]) : -Math.abs(this.y[i])-200,
           zIndex: this.z[i],
         }}>
           <rect width={this.s[i]} height={this.s[i]} style={{fill:this.color[i],strokeWidth:0}} />
