@@ -6,10 +6,6 @@ function getColor(hMin,hRange,sMin,sRange,lMin,lRange){
     (lMin + lRange * Math.random()) + '%)'
 }
 
-const hMin = 360 * Math.random(), hRange = 360 * Math.random();
-const sMin = 50 * Math.random(), sRange = 70 * Math.random();
-const lMin = 60 + 30 * Math.random(), lRange = 35 * Math.random();
-
 export default class Dots extends Component {
   constructor(props) {
     super(props)
@@ -23,7 +19,14 @@ export default class Dots extends Component {
     }
 
     this.NUM_DOTS = 150 + 100 * Math.random();
-    this.MAX_SIZE = 15 + 10 * Math.random();
+    
+    const hMin = 360 * Math.random(), hRange = 360 * Math.random();
+    const sMin = 50 * Math.random(), sRange = 70 * Math.random();
+    const lMin = 60 + 30 * Math.random(), lRange = 35 * Math.random();
+
+    const maxSize = 15 + 10 * Math.random();
+    const xInc = window.innerWidth/this.NUM_DOTS;
+    const yInc = window.innerHeight/this.NUM_DOTS;
 
     this.s = [];
     this.x = [];
@@ -33,9 +36,9 @@ export default class Dots extends Component {
     this.color = [];
 
     for (var i=0;i<this.NUM_DOTS;i++) {
-      this.s.push(Math.ceil(Math.random())*this.MAX_SIZE*(((1-(i+1)/(this.NUM_DOTS+1))*0.75+0.25)));
-      this.x.push(Math.ceil(Math.random()*i*4)-50);
-      this.y.push(Math.ceil(Math.random()*i*4)-50);
+      this.s.push(Math.ceil(Math.random())*maxSize*(((1-(i+1)/(this.NUM_DOTS+1))*0.75+0.25)));
+      this.x.push(Math.ceil(Math.random()*i*xInc)-50);
+      this.y.push(Math.ceil(Math.random()*i*yInc)-50);
       this.z.push(Math.ceil(-1-Math.random()*20));
       this.time.push(200+Math.ceil(Math.random()*100));
       this.color.push(getColor(hMin,hRange,sMin,sRange,lMin,lRange));
