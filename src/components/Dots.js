@@ -46,16 +46,15 @@ export default class Dots extends Component {
   }
 
   mouseMoveHandler(event) {
+    this.setState({
+      mouseX: event.clientX,
+      mouseY: event.clientY
+    });
     if (!this.state.mouseMoved) {
       this.setState({
         mouseMoved: true,
         mouseXOrig: event.clientX,
         mouseYOrig: event.clientY,
-      });
-    } else {
-      this.setState({
-        mouseX: event.clientX,
-        mouseY: event.clientY
       });
     }
   }
