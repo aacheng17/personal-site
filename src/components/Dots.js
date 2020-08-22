@@ -92,7 +92,7 @@ export default class Dots extends Component {
       dots.push(
         <svg key={"svg"+i} width={this.s[i]} height={this.s[i]} style={{
           position: 'absolute',
-          transition: this.state.mouseMoved ? "" : `left ${this.time[i]}ms, top ${this.time[i]}ms`,
+          transition: this.state.mouseMoved ? "left: 1ms, top: 1ms" : `left ${this.time[i]}ms, top ${this.time[i]}ms`,
           left: this.state.mounted ? (this.state.mouseMoved ? this.x[i] + (this.state.mouseX - this.state.mouseXOrig)/(-this.z[i]) : this.x[i]) : -Math.abs(this.x[i])-200,
           top: this.state.mounted ? (this.state.mouseMoved ? this.y[i] + (this.state.mouseY - this.state.mouseYOrig + this.state.pageYOffset/2) /(-this.z[i]) : this.y[i]) : -Math.abs(this.y[i])-200,
           zIndex: this.z[i],
