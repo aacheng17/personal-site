@@ -23,14 +23,17 @@ const pages = [
       new Slide(
         "",
         <div>
+          <h2>Welcome to my personal website<br />I'm Aaron Cheng</h2>
+          <p>-</p>
           <h3>
             Computer Science Major at Rutgers University
             <br />
-            Founder and Teacher at A* Tutoring
+            Founder and Teacher of A* Tutoring
             <br />
             Jazz and Pop Gig Pianist
             <br />
           </h3>
+          <p>-</p>
           <a href="https://github.com/aacheng17">Github</a>
           <br/>
           <a href="https://www.linkedin.com/in/aaron-cheng-b93a711a7/">LinkedIn</a>
