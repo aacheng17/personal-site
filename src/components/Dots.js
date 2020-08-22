@@ -1,10 +1,9 @@
 import React, { Component } from "react";
-const NUM_DOTS = 200
 
-function getColor(){ 
-  return "hsl(" + 360 * Math.random() + ',' +
-    (25 + 70 * Math.random()) + '%,' + 
-    (85 + 10 * Math.random()) + '%)'
+function getColor(hMin,hRange,sMin,sRange,lMin,lRange){ 
+  return "hsl(" + (hMin + hRange * Math.random()) % 360 + ',' +
+    (sMin + sRange * Math.random()) + '%,' +
+    (lMin + lRange * Math.random()) + '%)'
 }
 
 export default class Dots extends Component {
@@ -34,9 +33,17 @@ export default class Dots extends Component {
   }
 
   render() {
+    const NUM_DOTS = 150 + 100 * Math.random();
     var dots = [];
+
+    const MAX_SIZE = 15 + 10 * Math.random();
+
+    const hMin = 360 * Math.random(), hRange = 360 * Math.random();
+    const sMin = 50 * Math.random(), sRange = 70 * Math.random();
+    const lMin = 60 + 30 * Math.random(), lRange = 35 * Math.random();
+
     for (var i=0;i<NUM_DOTS;i++) {
-      var s = Math.ceil(Math.random())*20*(((1-(i+1)/(NUM_DOTS+1))*0.75+0.25));
+      var s = Math.ceil(Math.random())*MAX_SIZE*(((1-(i+1)/(NUM_DOTS+1))*0.75+0.25));
       var x = Math.ceil(Math.random()*i*4)-50;
       var y = Math.ceil(Math.random()*i*4)-50;
       var z = Math.ceil(-1-Math.random()*20);
@@ -49,7 +56,7 @@ export default class Dots extends Component {
           top: this.state.mounted ? y : -y,
           zIndex: z,
         }}>
-          <rect width={s} height={s} style={{fill:getColor(),strokeWidth:0}} />
+          <rect width={s} height={s} style={{fill:getColor(hMin,hRange,sMin,sRange,lMin,lRange),strokeWidth:0}} />
         </svg>
       );
     }

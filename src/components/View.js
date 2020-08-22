@@ -37,13 +37,13 @@ class View extends Component {
         </li>
       );
     }
-    /*
+    
     navList.push(
       <li key='navListSparkles'>
         <SparklesButton className='Nav-link' onClick={this.handleSparkles}/>
       </li>
     );
-    */
+    
 
     return (
       <>
