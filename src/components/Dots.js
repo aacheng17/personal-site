@@ -28,6 +28,7 @@ export default class Dots extends Component {
     const maxSize = 15 + 10 * Math.random();
     const xInc = window.innerWidth/this.NUM_DOTS;
     const yInc = window.innerHeight/this.NUM_DOTS;
+    const zMax = Math.floor(-10+Math.random()*20);
 
     this.s = [];
     this.x = [];
@@ -40,7 +41,8 @@ export default class Dots extends Component {
       this.s.push(Math.ceil(Math.random())*maxSize*(((1-(i+1)/(this.NUM_DOTS+1))*0.75+0.25)));
       this.x.push(Math.ceil(Math.random()*i*xInc)-50);
       this.y.push(Math.ceil(Math.random()*i*yInc)-50);
-      this.z.push(Math.ceil(-1-Math.random()*20));
+      this.z.push(Math.ceil(zMax-Math.random()*20));
+      if (this.z[i] === 0) this.z[i] = -1;
       this.time.push(200+Math.ceil(Math.random()*100));
       this.color.push(getColor(hMin,hRange,sMin,sRange,lMin,lRange));
     }
@@ -86,13 +88,12 @@ export default class Dots extends Component {
   }
 
   render() {
-    console.log(this.state.mounted);
     var dots = [];
     for (var i=0;i<this.NUM_DOTS;i++) {
       dots.push(
         <svg key={"svg"+i} width={this.s[i]} height={this.s[i]} style={{
           position: 'absolute',
-          transition: this.state.mouseMoved ? "left: 1ms, top: 1ms" : `left ${this.time[i]}ms, top ${this.time[i]}ms`,
+          transition: this.state.mouseMoved ? "left: 1000ms, top: 1000ms" : `left ${this.time[i]}ms, top ${this.time[i]}ms`,
           left: this.state.mounted ? (this.state.mouseMoved ? this.x[i] + (this.state.mouseX - this.state.mouseXOrig)/(-this.z[i]) : this.x[i]) : -Math.abs(this.x[i])-200,
           top: this.state.mounted ? (this.state.mouseMoved ? this.y[i] + (this.state.mouseY - this.state.mouseYOrig + this.state.pageYOffset/2) /(-this.z[i]) : this.y[i]) : -Math.abs(this.y[i])-200,
           zIndex: this.z[i],
