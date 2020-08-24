@@ -26,7 +26,7 @@ const pages = [
           <h2>Welcome to my personal website<br />I'm Aaron Cheng</h2>
           <p>-</p>
           <h3>
-            Computer Science Major at Rutgers University
+            Computer Science Student at Rutgers University
             <br />
             Founder and Teacher of A* Tutoring
             <br />
