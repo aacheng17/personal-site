@@ -66,10 +66,12 @@ const pages = [
           <p>2019 - Present<br />K-12 math tutor</p>
           <h2>Freelance Musician</h2>
           <p>2017 - Present<br />Classical, jazz, and pop pianist for local events and weddings</p>
-          <h2>Music and Tech intern for the Rockit! Live Foundation</h2>
+          <h2>Music and Tech Intern for the Rockit! Live Foundation</h2>
           <p>2018 - 2019<br />Editing and design for website, social media, flyers, photos, videos</p>
           <h2>Video Production Intern at Cinecall Productions</h2>
           <p>2017<br />Video editing for concerts and documentaries</p>
+          <h2>Database Management Intern at Neteon Technologies</h2>
+          <p>2017<br />Managing product information on company website</p>
         </div>
       ),
       new Slide(
