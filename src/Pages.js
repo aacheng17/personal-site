@@ -44,7 +44,7 @@ const pages = [
           <br/>
           <a href="https://tutors.com/nj/sayreville/math-tutors/aaron-cheng-tutoring">A* Tutoring</a>
           <br/>
-          <a href="https://aaronchengmusic.com">Music</a>
+          <a href="http://aaronchengmusic.com">Music</a>
 
         </div>
       )
