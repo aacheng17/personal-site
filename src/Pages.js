@@ -43,6 +43,8 @@ const pages = [
           <a href="https://aacheng.itch.io">itch.io</a>
           <br/>
           <a href="https://tutors.com/nj/sayreville/math-tutors/aaron-cheng-tutoring">A* Tutoring</a>
+          <br/>
+          <a href="https://aaronchengmusic.com">Music</a>
 
         </div>
       )
@@ -64,7 +66,7 @@ const pages = [
           <p>2020<br />Mentored by a senior software engineer and worked with fellow mentees to build a full stack web application.</p>
           <h2>Math Tutor at Mathnasium Learning Center</h2>
           <p>2019 - Present<br />K-12 math tutor</p>
-          <h2>Freelance Musician</h2>
+          <h2><a href="https://aaronchengmusic.com">Freelance Musician</a></h2>
           <p>2017 - Present<br />Classical, jazz, and pop pianist for local events and weddings</p>
           <h2>Music and Tech Intern for the Rockit! Live Foundation</h2>
           <p>2018 - 2019<br />Editing and design for website, social media, flyers, photos, videos</p>
