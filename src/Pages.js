@@ -165,7 +165,7 @@ const pages = [
             Website for aggregated movie ratings<br/>
             Javascript, Java, Python<br/>
             <a href="https://ratingssite.azurewebsites.net">Link to site</a><br/>
-            <a href="google.com">Github</a>
+            <a href="https://github.com/aacheng17/RatingsSite">Github</a>
           </p>
           <h2>BadTranslator</h2>
           <p>
