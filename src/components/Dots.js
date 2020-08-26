@@ -79,7 +79,7 @@ export default class Dots extends Component {
     this.mouseInterval = setInterval(
       () => {
         window.addEventListener('mousemove',this.mouseMoveHandler);
-        window.addEventListener('scroll', (event) => this.scrollHandler(event));
+        window.addEventListener('scroll',this.scrollHandler);
         clearInterval(this.mouseInterval);
       }, 300
     );
