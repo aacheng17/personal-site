@@ -34,7 +34,7 @@ const pages = [
             <br />
           </h3>
           <p>-</p>
-          <a href="https://github.com/aacheng17">Github</a>
+          <a href="https://github.com/aacheng17">GitHub</a>
           <br/>
           <a href="https://www.linkedin.com/in/aaron-cheng-b93a711a7/">LinkedIn</a>
           <br/>
@@ -158,21 +158,21 @@ const pages = [
           <p>
             Website you're currently on<br/>
             Javascript<br/>
-            <a href="https://github.com/aacheng17/personal-site">Github</a>
+            <a href="https://github.com/aacheng17/personal-site">GitHub</a>
           </p>
           <h2>Ratings Site</h2>
           <p>
             Website for aggregated movie ratings<br/>
             Javascript, Java, Python<br/>
             <a href="https://ratingssite.azurewebsites.net">Link to site</a><br/>
-            <a href="https://github.com/aacheng17/RatingsSite">Github</a>
+            <a href="https://github.com/aacheng17/RatingsSite">GitHub</a>
           </p>
           <h2>BadTranslator</h2>
           <p>
             Website for translating things badly<br/>
             Dart, Javascript<br/>
             <a href="https://badtranslator-284415.web.app">Link to site</a><br/>
-            <a href="https://github.com/aacheng17/BadTranslator">Github</a>
+            <a href="https://github.com/aacheng17/BadTranslator">GitHub</a>
           </p>
           <h2>Steal Shield Stab</h2>
           <p>
@@ -185,7 +185,7 @@ const pages = [
             Game about zipping through streets as a taxi<br/>
             Java<br/>
             <a href="https://aacheng.itch.io/taxigame">itch.io</a><br/>
-            <a href="https://github.com/RyanCirincione/TaxiGame">Github</a>
+            <a href="https://github.com/RyanCirincione/TaxiGame">GitHub</a>
           </p>
           <h2>The Cactus</h2>
           <p>
