@@ -19,6 +19,9 @@ export default class Dots extends Component {
       pageYOffset: 0
     }
 
+    this.mouseMoveHandler = this.mouseMoveHandler.bind(this);
+    this.scrollHandler = this.scrollHandler.bind(this);
+
     this.NUM_DOTS = 150 + 100 * Math.random();
     
     const hMin = 360 * Math.random(), hRange = 360 * Math.random();
@@ -75,16 +78,16 @@ export default class Dots extends Component {
     );
     this.mouseInterval = setInterval(
       () => {
-        window.addEventListener('mousemove', (event) => this.mouseMoveHandler(event));
-        clearInterval(this.mouseInterval);
+        window.addEventListener('mousemove',this.mouseMoveHandler);
         window.addEventListener('scroll', (event) => this.scrollHandler(event));
+        clearInterval(this.mouseInterval);
       }, 300
     );
   }
 
   componentWillUnmount() {
-    //window.removeEventListener('mousemove', (event) => this.mouseMoveHandler(event));
-    //window.removeEventListener('scroll', (event) => this.scrollHandler(event));
+    window.removeEventListener('mousemove',this.mouseMoveHandler);
+    window.removeEventListener('scroll',this.scrollHandler);
   }
 
   render() {
