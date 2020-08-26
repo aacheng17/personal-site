@@ -13,8 +13,8 @@ class View extends Component {
     this.handleSparkles = this.handleSparkles.bind(this)
   }
 
-  handleSparkles() {
-    this.props.onSparkles();
+  handleSparkles(onOff) {
+    this.props.onSparkles(onOff);
   }
 
   render() {

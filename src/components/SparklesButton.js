@@ -6,13 +6,20 @@ export default class SparklesButton extends Component {
     this.handleClick = this.handleClick.bind(this)
   }
 
-  handleClick(event) {
-    this.props.onClick();
+  handleClick(event, onOff) {
+    this.props.onClick(onOff);
   }
 
   render() {
-    return <button className='Nav-link' onClick={this.handleClick}>
-      sparkles
-    </button>
+    return (
+      <div>
+        <button className='Nav-link' onClick={(event) => this.handleClick(event, true)}>
+          sparkles
+        </button>
+        <button className='Nav-link' onClick={(event) => this.handleClick(event, false)}>
+          off
+        </button>
+      </div>
+    );
   }
 }

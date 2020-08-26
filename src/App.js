@@ -13,9 +13,13 @@ export default function App() {
   const [dots, setDots] = useState(undefined);
   const [dotsKey, setDotsKey] = useState(false);
 
-  function handleSparkles() {
-    setDots(<Dots key={dotsKey}/>);
-    setDotsKey(!dotsKey);
+  function handleSparkles(onOff) {
+    if (onOff) {
+      setDots(<Dots key={dotsKey}/>);
+      setDotsKey(!dotsKey);
+    } else {
+      setDots("");
+    }
   }
 
   var routes = [];
