@@ -24,7 +24,7 @@ const pages = [
         "",
         <div>
           <h2>Welcome to my personal website<br />I'm Aaron Cheng</h2>
-          <p>-</p>
+          <br/>
           <h3>
             Computer Science Student at Rutgers University
             <br />
@@ -33,7 +33,7 @@ const pages = [
             Jazz and Pop Gig Pianist
             <br />
           </h3>
-          <p>-</p>
+          <br/>
           <a href="https://github.com/aacheng17" target="_blank" rel="noopener noreferrer">GitHub</a>
           <br/>
           <a href="https://www.linkedin.com/in/aaron-cheng-b93a711a7/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
