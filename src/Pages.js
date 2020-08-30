@@ -33,6 +33,7 @@ const pages = [
             Jazz and Pop Gig Pianist
             <br />
           </h3>
+          <a href="https://drive.google.com/drive/folders/1xerhk576vISiP_rmWC8atil-u3VYzTeo?usp=sharing" target="_blank" rel="noopener noreferrer">You can download my resume here</a> if you want more concise information
           <br/>
           <a href="https://github.com/aacheng17" target="_blank" rel="noopener noreferrer">GitHub</a>
           <br/>
@@ -45,7 +46,6 @@ const pages = [
           <a href="https://tutors.com/nj/sayreville/math-tutors/aaron-cheng-tutoring" target="_blank" rel="noopener noreferrer">A* Tutoring</a>
           <br/>
           <a href="http://aaronchengmusic.com" target="_blank" rel="noopener noreferrer">Music</a>
-
         </div>
       )
     ]
@@ -60,20 +60,34 @@ const pages = [
           <div style={{ textAlign: "center" }}>
             <h1>Work</h1>
           </div>
-          <h2>Founder and Tutor of <a href="https://tutors.com/nj/sayreville/math-tutors/aaron-cheng-tutoring" target="_blank" rel="noopener noreferrer">A* Tutoring</a></h2>
-          <p>2013 - Present<br />Private tutoring for programming, math, physics, music, and English</p>
           <h2>Intern at iCIMS</h2>
-          <p>2020<br />Mentored by a senior software engineer and worked with fellow mentees to build a full stack web application.</p>
+          <p>2020 - Present<br />
+          • Mentored directly by a senior software engineer at iCIMS<br/>
+          • Collaborated with intern team to build and deploy a full stack web application (see Ratings Site under Projects)<br/>
+          • Gain experience in web development, front end web design, web scraping, databases, web APIs, and collaboration using source control
+          </p>
+          <h2>Founder and Tutor of <a href="https://tutors.com/nj/sayreville/math-tutors/aaron-cheng-tutoring" target="_blank" rel="noopener noreferrer">A* Tutoring</a></h2>
+          <p>2013 - Present<br />
+          • Teach programming, math, physics, music, and English with a focus on intuitive understanding<br/>
+          • Manage communications, scheduling, and payments with students and parents<br/>
+          • Adapt teaching style to accommodate a wide range of students with different ages, experience levels, skillsets, backgrounds, dispositions, and goals<br/>
+          • Conduct marketing and corresponding with potential students for myself as well as two other A* tutors
+          </p>
           <h2>Math Tutor at Mathnasium Learning Center</h2>
-          <p>2019 - Present<br />K-12 math tutor</p>
+          <p>2019 - Present<br />
+          • Trained in specialized method to enable and encourage children to understand and appreciate math<br/>
+          • Engage with local K-12 students to teach in-person and online group math lessons
+          </p>
           <h2><a href="https://aaronchengmusic.com" target="_blank" rel="noopener noreferrer">Freelance Musician</a></h2>
-          <p>2017 - Present<br />Classical, jazz, and pop pianist for local events and weddings</p>
+          <p>2017 - Present<br />
+          • Perform classical, jazz, and pop piano with other musicians for local events</p>
           <h2>Music and Tech Intern for the Rockit! Live Foundation</h2>
-          <p>2018 - 2019<br />Editing and design for website, social media, flyers, photos, videos</p>
+          <p>2018 - 2019<br />
+          • Edited photos and videos for website and social media<br/>
+          • Designed posters and flyers for events and advertising
+          </p>
           <h2>Video Production Intern at Cinecall Productions</h2>
-          <p>2017<br />Video editing for concerts and documentaries</p>
-          <h2>Database Management Intern at Neteon Technologies</h2>
-          <p>2017<br />Managing product information on company website</p>
+          <p>2017<br />• Video editing for concerts and documentaries</p>
         </div>
       ),
       new Slide(
@@ -114,7 +128,7 @@ const pages = [
           <ul>
             <li>Data Structures</li>
             <li>Computer Architecture</li>
-            <li>Design and Analysis of Algorithms</li>
+            <li>Algorithm Design and Analysis</li>
             <li>Linear Algebra</li>
             <li>Discrete Structures</li>
             <li>Software Methodology</li>
@@ -122,8 +136,6 @@ const pages = [
             <li>Principles of Programming Languages</li>
             <li>Principles of Data Management</li>
             <li>Internet Technology</li>
-            <li>Computer Security</li>
-            <li>Brain Inspired Computing</li>
           </ul>
           <ul>
             <li>Introduction to Logic</li>
