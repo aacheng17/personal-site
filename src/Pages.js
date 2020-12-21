@@ -61,11 +61,11 @@ const pages = [
             <h1>Work</h1>
           </div>
           <h2>Intern at iCIMS</h2>
-          <p>2020 - Present<br /><br/>
-          I got the amazing opportunity to be an intern at iCIMS, a group of the friendliest, smartest, and most considerate professionals I know. I worked one on one with my mentor, a senior software engineer at the company, and also with two other interns to build my first full stack web application (It's called "Ratings Site" in my Projects).
-          <br/><br/>Things I've learned:
+          <p>2020<br /><br/>
+          I got the amazing opportunity to be an intern at iCIMS, a group of the friendliest, smartest, and most considerate professionals I know. I worked one on one with my mentor, a senior software engineer at the company, and also with two other interns to build my first full stack web application ("Ratings Site" in my Projects).
+          <br/><br/>Things I learned:
           <br/>• Web development with Java Spring
-          <br/>• Front end web design with ReactJS (which is what led to me making this website)
+          <br/>• Front end web design with ReactJS
           <br/>• Web scraping with Python and the Beautiful Soup module
           <br/>• Databases and SQL
           <br/>• Using web APIs
