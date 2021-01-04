@@ -174,12 +174,14 @@ const pages = [
             <li>Principles of Programming Languages</li>
             <li>Principles of Data Management</li>
             <li>Internet Technology</li>
+            <li>Brain Inspired Computing</li>
+            <li>Computer Security</li>
           </ul>
           <ul>
-            <li>Introduction to Logic</li>
-            <li>Introduction to Philosophy of Physics</li>
-            <li>Philosophy of Cosmology</li>
             <li>Minds, Machines, and Persons</li>
+            <li>Applied Symbolic Logic</li>
+            <li>Philosophy of Physics</li>
+            <li>Metaphysics</li>
           </ul>
           <ul>
             <li>Music Theory and Analysis</li>
@@ -189,7 +191,7 @@ const pages = [
             <li>Production: Recording and Mixing</li>
           </ul>
           <ul>
-            <li>Introduction to Creative Writing</li>
+            <li>Creative Writing</li>
             <li>Multimedia Composition</li>
             <li>Information Technology and Informatics</li>
           </ul>
@@ -205,9 +207,14 @@ const pages = [
       new Slide(
         "Projects",
         <div>
+          <h2>Mockroach</h2>
+          <p>
+            An online multiplayer bluffing card game you can play with friends. Art by Angelina Cheng. The front end is built in ReactJS, and the back end in NodeJS.
+            <a href="https://mockroach.herokuapp.com" target="_blank" rel="noopener noreferrer">Play</a>
+          </p>
           <h2>Personal Site</h2>
           <p>
-            This is the website you're currently on! Just a little project to practice using ReactJS. Building the fade animation and the sparkles from scratch probably took way too long.<br/>
+            This is the website you're currently on, just a little project to practice using ReactJS. Building the fade animation and the sparkles from scratch probably took way too long.<br/>
             <a href="https://github.com/aacheng17/personal-site" target="_blank" rel="noopener noreferrer">GitHub</a>
           </p>
           <h2>Ratings Site</h2>
@@ -235,7 +242,7 @@ const pages = [
           </p>
           <h2>The Cactus</h2>
           <p>
-            You're a green square and enemies are trying to bump you into a cactus. I would love to take this idea and run harder with it eventually. Made in GameMaker Studio<br/>
+            You're a green square and enemies are trying to bump you into a cactus. Currently under development for release on Steam. Made in GameMaker Studio<br/>
             <a href="https://aacheng.itch.io/the-cactus" target="_blank" rel="noopener noreferrer">itch.io</a>
           </p>
           <h2>Morse</h2>
