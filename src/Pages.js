@@ -136,9 +136,9 @@ const pages = [
           <h2>Experienced</h2>
           <p>Python, Java</p>
           <h2>Proficient</h2>
-          <p>C, JavaScript, HTML, CSS, Dart, SQL</p>
+          <p>C, C#, JavaScript, HTML, CSS, Dart, SQL</p>
           <h2>Familiar</h2>
-          <p>C#, Haskell, Prolog</p>
+          <p>Haskell, Prolog</p>
           <h2>Other Software</h2>
           <p>
             Git, Flutter<br />
@@ -207,47 +207,53 @@ const pages = [
       new Slide(
         "Projects",
         <div>
+          <p>If you'd like to try out these apps, please note that some of them are on free hosting services and may take some time to load.</p>
           <h2>Mockroach</h2>
           <p>
-            An online multiplayer bluffing card game you can play with friends. Art by Angelina Cheng. The front end is built in ReactJS, and the back end in NodeJS.
+            An online multiplayer bluffing card game you can play with friends. Art by <a href="https://angelinac.pb.online" target="_blank" rel="noopener noreferrer">Angelina Cheng</a>. The front end is built in ReactJS, and the back end in NodeJS.<br/>
             <a href="https://mockroach.herokuapp.com" target="_blank" rel="noopener noreferrer">Play</a>
+          </p>
+          <h2>Idiot Boy</h2>
+          <p>
+            A simple visualization of a spiking neural network that can learn to recognize numbers. Nicknamed "Idiot Boy" because it was very inaccurate in its early stages. Built for a brain inspired computing course in Gamemaker Studio 2.<br/>
+            <a href="https://www.youtube.com/watch?v=ArK8bcnidL0" target="_blank" rel="noopener noreferrer">Video</a>
           </p>
           <h2>Personal Site</h2>
           <p>
-            This is the website you're currently on, just a little project to practice using ReactJS. Building the fade animation and the sparkles from scratch probably took way too long.<br/>
+            This is the website you're currently on, just a little project to practice using ReactJS. It was educational to build the fade animation and the sparkles from scratch.<br/>
             <a href="https://github.com/aacheng17/personal-site" target="_blank" rel="noopener noreferrer">GitHub</a>
           </p>
           <h2>Ratings Site</h2>
           <p>
-            A full stack web application that scrapes the top movies from IMDb, Rotten Tomatoes, and MetaCritic and aggregates the data in one website, developed with two other team members. We built the backend with Java Spring, the front end with ReactJS, web scraped with Python, and hosted the database and deployed the site with Microsoft Azure. It was very educational to work on all aspects of a full stack app.<br/>
+            A full stack web application that scrapes the top movies from IMDb, Rotten Tomatoes, and MetaCritic and aggregates the data in one website, developed with two other team members. We built the backend with Java Spring, the front end with ReactJS, web scraped with Python, and hosted the database and deployed the site with Microsoft Azure.<br/>
             <a href="https://ratingssite.azurewebsites.net" target="_blank" rel="noopener noreferrer">Link to site</a><br/>
             <a href="https://github.com/aacheng17/RatingsSite" target="_blank" rel="noopener noreferrer">GitHub</a>
           </p>
           <h2>BadTranslator</h2>
           <p>
-            A little project I made for fun, consisting of a front end made with Flutter that takes your input and queries a backend built with NodeJS. The backend is an API that uses the Google Translate API. It translates your input through 10 random languages and then back to English for a likely terrible translation. Only works for English right now.<br/>
+            A small web app consisting of a front end built in Flutter that takes your input and queries a backend built with NodeJS. The backend uses the Google Translate API to translate your input through 10 random languages and then back to English for a translation that will most likely be terrible.<br/>
             <a href="https://badtranslator-284415.web.app" target="_blank" rel="noopener noreferrer">Link to site</a><br/>
             <a href="https://github.com/aacheng17/BadTranslator" target="_blank" rel="noopener noreferrer">GitHub</a>
           </p>
           <h2>Steal Shield Stab</h2>
           <p>
-            Built in GameMaker Studio, this is the most complicated game I've made. Short explanation is it's rock paper scissors combined with a 2D fighting game. It hasn't gotten any intensive testing at all but I'm happy I made it.<br/>
+            Short explanation is it's rock paper scissors combined with a 2D fighting game. Made in Gamemaker Studio 2.<br/>
             <a href="https://aacheng.itch.io/stealshieldstab" target="_blank" rel="noopener noreferrer">itch.io</a>
           </p>
           <h2>TaxiGame</h2>
           <p>
-            A very calm game made in Java Swing, collaborating with a team member. You're a dot on a track and you zip around collecting customers, money, tracks, and upgrades. A lot of focus was put on the simple geometric graphics, it's supposed to be just a neat little pleasing time killer.<br/>
+            A calm, minimalist game made in Java Swing. You're a dot on a track and you zip around collecting customers, money, tracks, and upgrades.<br/>
             <a href="https://aacheng.itch.io/taxigame" target="_blank" rel="noopener noreferrer">itch.io</a><br/>
             <a href="https://github.com/RyanCirincione/TaxiGame" target="_blank" rel="noopener noreferrer">GitHub</a>
           </p>
           <h2>The Cactus</h2>
           <p>
-            You're a green square and enemies are trying to bump you into a cactus. Currently under development for release on Steam. Made in GameMaker Studio<br/>
+            You're a square and baddies are trying to bump you into a cactus. Currently under development for release on Steam. Made in GameMaker Studio.<br/>
             <a href="https://aacheng.itch.io/the-cactus" target="_blank" rel="noopener noreferrer">itch.io</a>
           </p>
           <h2>Morse</h2>
           <p>
-            Minimalistic game about clicking on rectangles at the right time. My goal was to make something simple, clean, and finished. Made in GameMaker Studio<br/>
+            Minimalistic game about clicking on rectangles at the right time. My goal was to make something simple, clean, and finished. Made in GameMaker Studio.<br/>
             <a href="https://aacheng.itch.io/morse" target="_blank" rel="noopener noreferrer">itch.io</a>
           </p>
           <br/>
