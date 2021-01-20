@@ -33,19 +33,13 @@ const pages = [
             Jazz and Pop Gig Pianist
             <br />
           </h3>
-          <a href="https://drive.google.com/drive/folders/1xerhk576vISiP_rmWC8atil-u3VYzTeo?usp=sharing" target="_blank" rel="noopener noreferrer">You can download my resume here</a> if you want more concise information
+          You can download my resume <a href="https://drive.google.com/drive/folders/1xerhk576vISiP_rmWC8atil-u3VYzTeo?usp=sharing" target="_blank" rel="noopener noreferrer">here</a> if you want more concise information
           <br/>
           <a href="https://github.com/aacheng17" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <br/>
-          <a href="https://www.linkedin.com/in/aaron-cheng-b93a711a7/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-          <br/>
-          <a href="https://app.joinhandshake.com/users/9912209" target="_blank" rel="noopener noreferrer">HandShake</a>
           <br/>
           <a href="https://aacheng.itch.io" target="_blank" rel="noopener noreferrer">itch.io</a>
           <br/>
           <a href="https://tutors.com/nj/sayreville/math-tutors/aaron-cheng-tutoring" target="_blank" rel="noopener noreferrer">A* Tutoring</a>
-          <br/>
-          <a href="http://aaronchengmusic.com" target="_blank" rel="noopener noreferrer">Music</a>
         </div>
       )
     ]
@@ -94,7 +88,7 @@ const pages = [
           </p>
           <br/>
 
-          <h2><a href="https://aaronchengmusic.com" target="_blank" rel="noopener noreferrer">Freelance Musician</a></h2>
+          <h2>Freelance Musician</h2>
           <p>2017 - Present<br /><br/>
           In high school I started playing jazz at local events with some friends and since then I've performed at restaurants, weddings, and coffeehouses. I absolutely love music and I'm mad I don't get the chance to play as often now. I really enjoy improvising and I would love to one day release music or develop an AI that improvises music.
           <br/><br/>Things I've learned:
