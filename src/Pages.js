@@ -188,6 +188,8 @@ const pages = [
             <li>Creative Writing</li>
             <li>Multimedia Composition</li>
             <li>Information Technology and Informatics</li>
+            <li>Communication and Information Processes</li>
+            <li>Politics of Climate Change</li>
           </ul>
           <br/>
         </div>
