@@ -206,7 +206,7 @@ const pages = [
           <p>If you'd like to try out these apps, please note that some of them are on free hosting services and may take some time to load.</p>
           <h2>Piano Lights</h2>
           <p>
-            A piano midi file visualizer made in Unity.
+            A piano midi file visualizer made in Unity.<br/>
             <a href="https://www.youtube.com/watch?v=50TrGN4quV4" target="_blank" rel="noopener noreferrer">Watch</a>
           </p>
           <h2>Mockroach</h2>
