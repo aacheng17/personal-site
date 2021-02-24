@@ -204,19 +204,24 @@ const pages = [
         "Projects",
         <div>
           <p>If you'd like to try out these apps, please note that some of them are on free hosting services and may take some time to load.</p>
+          <h2>Piano Lights</h2>
+          <p>
+            A piano midi file visualizer made in Unity.
+            <a href="https://www.youtube.com/watch?v=50TrGN4quV4" target="_blank" rel="noopener noreferrer">Watch</a>
+          </p>
           <h2>Mockroach</h2>
           <p>
-            An online multiplayer bluffing card game you can play with friends. Art by <a href="https://angelinac.pb.online" target="_blank" rel="noopener noreferrer">Angelina Cheng</a>. The front end is built in ReactJS, and the back end in NodeJS.<br/>
+            An online multiplayer bluffing card game. Art by <a href="https://angelinac.pb.online" target="_blank" rel="noopener noreferrer">Angelina Cheng</a>. The front end is built in ReactJS, and the back end in NodeJS.<br/>
             <a href="https://mockroach.herokuapp.com" target="_blank" rel="noopener noreferrer">Play</a>
           </p>
           <h2>Idiot Boy</h2>
           <p>
-            A simple visualization of a spiking neural network that can learn to recognize numbers. Nicknamed "Idiot Boy" because it was very inaccurate in its early stages. Built for a brain inspired computing course in Gamemaker Studio 2.<br/>
+            A simple visualization of a spiking neural network that can learn to recognize numbers, nicknamed "Idiot Boy" because of its network's early inaccuracies.<br/>
             <a href="https://www.youtube.com/watch?v=ArK8bcnidL0" target="_blank" rel="noopener noreferrer">Video</a>
           </p>
           <h2>Personal Site</h2>
           <p>
-            This is the website you're currently on, just a little project to practice using ReactJS. It was educational to build the fade animation and the sparkles from scratch.<br/>
+            The website you're currently on.<br/>
             <a href="https://github.com/aacheng17/personal-site" target="_blank" rel="noopener noreferrer">GitHub</a>
           </p>
           <h2>Ratings Site</h2>
