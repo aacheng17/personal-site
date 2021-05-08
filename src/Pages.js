@@ -102,7 +102,7 @@ const pages = [
 
           <h2>Music and Tech Intern for the Rockit! Live Foundation</h2>
           <p>2018 - 2019<br /><br/>
-          Rockit is a nonprofit music education and performance program headed by an extremely passionate and driven group of musicians, possibly only matched by the talent and passion of the kids they teach. I worked closely with the founder and head of the organization, putting together videos, editing photos for the website and postcards, assembling ad journals, designing posters, flyers, and event invitations, and corresponding with printing companies. They're an amazing educational program and I'm proud to have been a part of it, those kids are insane musicians.
+          Rockit is a nonprofit music education and performance program headed by an extremely passionate group of musicians, possibly only matched by the talent and passion of the kids they teach. I worked closely with the founder and head of the organization, putting together videos, editing photos for the website and postcards, assembling ad journals, designing posters, flyers, and event invitations, and corresponding with printing companies. They're an amazing educational program and I'm proud to have been a part of it, those kids are insane musicians.
           <br/><br/>Things I learned:
           <br/>• Photoshop and Inkscape Vector Graphics
           <br/>• Visual design and the printing and marketing process
@@ -112,7 +112,7 @@ const pages = [
 
           <h2>Video Production Intern at Cinecall Productions</h2>
           <p>2017<br /><br/>
-          Cinecall is a great little studio that does video post production and I had the privilege of working directly with the head of it. I sorted through footage and cut together video of things ranging from a documentary on an organization that provided free cruises to cancer patients to concert DVDs.
+          Cinecall is a great production studio and I had the privilege of working directly with the head of it. I helped put together media ranging from documentaries concert DVDs.
           <br/><br/>Things I learned:
           <br/>• Adobe Premiere
           <br/>• Video editing and production techniques
@@ -151,7 +151,7 @@ const pages = [
             <h1>Education</h1>
           </div>
           <p>
-            Computer Science, B.S. from Rutgers University anticipated May 2021<br/>
+            Computer Science, B.S. from Rutgers University 2021<br/>
             Philosophy Minor<br/>
             Music Minor<br/>
             Recording Arts Certificate<br/>
@@ -189,7 +189,7 @@ const pages = [
             <li>Multimedia Composition</li>
             <li>Information Technology and Informatics</li>
             <li>Communication and Information Processes</li>
-            <li>Politics of Climate Change</li>
+            <li>Research: Politics of Climate Change</li>
           </ul>
           <br/>
         </div>
