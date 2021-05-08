@@ -130,7 +130,7 @@ const pages = [
           <h2>Experienced</h2>
           <p>Python, Java</p>
           <h2>Proficient</h2>
-          <p>C, C#, JavaScript, HTML, CSS, Dart, SQL</p>
+          <p>C, C#, JavaScript, HTML, CSS, Go, Dart, SQL</p>
           <h2>Familiar</h2>
           <p>Haskell, Prolog</p>
           <h2>Other Software</h2>
@@ -204,6 +204,11 @@ const pages = [
         "Projects",
         <div>
           <p>If you'd like to try out these apps, please note that some of them are on free hosting services and may take some time to load.</p>
+          <h2>Idiot Mouth</h2>
+          <p>
+            A barebones online multiplayer text-based word game based on the game Smart Mouth.
+            <a href="http://idiotmouth.herokuapp.com" target="_blank" rel="noopener noreferrer">Play</a>
+          </p>
           <h2>Piano Lights</h2>
           <p>
             A piano midi file visualizer made in Unity.<br/>
