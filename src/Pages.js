@@ -206,61 +206,61 @@ const pages = [
           <p>If you'd like to try out these apps, please note that some of them are on free hosting services and may take some time to load.</p>
           <h2>Idiot Mouth</h2>
           <p>
-            A barebones online multiplayer text-based word game based on the game Smart Mouth.<br/>
+            Barebones online multiplayer text-based word game based on the game Smart Mouth.<br/>Built with: Go<br/>
             <a href="http://idiotmouth.herokuapp.com" target="_blank" rel="noopener noreferrer">Play</a><br/>
             <a href="https://github.com/aacheng17/IdiotMouth" target="_blank" rel="noopener noreferrer">GitHub</a>
           </p>
           <h2>Piano Lights</h2>
           <p>
-            A piano midi file visualizer made in Unity.<br/>
+            3D piano midi file visualizer.<br/>Built with: Unity, C#.<br/>
             <a href="https://www.youtube.com/watch?v=50TrGN4quV4" target="_blank" rel="noopener noreferrer">Watch</a>
           </p>
           <h2>Mockroach</h2>
           <p>
-            An online multiplayer bluffing card game. Art by <a href="https://angelinac.pb.online" target="_blank" rel="noopener noreferrer">Angelina Cheng</a>. The front end is built in ReactJS, and the back end in NodeJS.<br/>
+            Online multiplayer bluffing card game. Art by <a href="https://angelinac.pb.online" target="_blank" rel="noopener noreferrer">Angelina Cheng</a>.<br/>Built with: NodeJS, ReactJS.<br/>
             <a href="https://mockroach.herokuapp.com" target="_blank" rel="noopener noreferrer">Play</a>
           </p>
           <h2>Idiot Boy</h2>
           <p>
-            A simple visualization of a spiking neural network that can learn to recognize numbers, nicknamed "Idiot Boy" because of its network's early inaccuracies.<br/>
+            Simple visualization of a spiking neural network that learns to recognize numbers.<br/>Built with: Gamemaker Studio.<br/>
             <a href="https://www.youtube.com/watch?v=ArK8bcnidL0" target="_blank" rel="noopener noreferrer">Video</a>
           </p>
           <h2>Personal Site</h2>
           <p>
-            The website you're currently on.<br/>
+            This current website.<br/>Built with: ReactJS.<br/>
             <a href="https://github.com/aacheng17/personal-site" target="_blank" rel="noopener noreferrer">GitHub</a>
           </p>
           <h2>Ratings Site</h2>
           <p>
-            A full stack web application that scrapes the top movies from IMDb, Rotten Tomatoes, and MetaCritic and aggregates the data in one website, developed with two other team members. We built the backend with Java Spring, the front end with ReactJS, web scraped with Python, and hosted the database and deployed the site with Microsoft Azure.<br/>
+            Full stack web app that scrapes and aggregates popular movie data from IMDb, Rotten Tomatoes, and MetaCritic, developed with two other team members.<br/>Built with: Java Spring, ReactJS, web scraping with Python Beautiful Soup and Selenium, hosting on Microsoft Azure.<br/>
             <a href="https://ratingssite.azurewebsites.net" target="_blank" rel="noopener noreferrer">Link to site</a><br/>
             <a href="https://github.com/aacheng17/RatingsSite" target="_blank" rel="noopener noreferrer">GitHub</a>
           </p>
           <h2>BadTranslator</h2>
           <p>
-            A small web app consisting of a front end built in Flutter that takes your input and queries a backend built with NodeJS. The backend uses the Google Translate API to translate your input through 10 random languages and then back to English for a translation that will most likely be terrible.<br/>
+            Small web app that translates your input to other languages and back.<br/>Built with: Flutter and Dart, NodeJS. Uses the Google Translate API.<br/>
             <a href="https://badtranslator-284415.web.app" target="_blank" rel="noopener noreferrer">Link to site</a><br/>
             <a href="https://github.com/aacheng17/BadTranslator" target="_blank" rel="noopener noreferrer">GitHub</a>
           </p>
           <h2>Steal Shield Stab</h2>
           <p>
-            Short explanation is it's rock paper scissors combined with a 2D fighting game. Made in Gamemaker Studio 2.<br/>
+            Rock paper scissors meets 2D fighting game.<br/>Built with: Gamemaker Studio.<br/>
             <a href="https://aacheng.itch.io/stealshieldstab" target="_blank" rel="noopener noreferrer">itch.io</a>
           </p>
           <h2>TaxiGame</h2>
           <p>
-            A calm, minimalist game made in Java Swing. You're a dot on a track and you zip around collecting customers, money, tracks, and upgrades.<br/>
+            Minimalist endless taxi driving game.<br/>Built with: Java Swing<br/>
             <a href="https://aacheng.itch.io/taxigame" target="_blank" rel="noopener noreferrer">itch.io</a><br/>
             <a href="https://github.com/RyanCirincione/TaxiGame" target="_blank" rel="noopener noreferrer">GitHub</a>
           </p>
           <h2>The Cactus</h2>
           <p>
-            You're a square and baddies are trying to bump you into a cactus. Currently under development for release on Steam. Made in GameMaker Studio.<br/>
+            Small platforming game. Don't touch the cactus. Currently under development for release on Steam.<br/>Built with: Gamemaker Studio.<br/>
             <a href="https://aacheng.itch.io/the-cactus" target="_blank" rel="noopener noreferrer">itch.io</a>
           </p>
           <h2>Morse</h2>
           <p>
-            Minimalistic game about clicking on rectangles at the right time. My goal was to make something simple, clean, and finished. Made in GameMaker Studio.<br/>
+            Minimalistic game about clicking on rectangles at the right time.<br/>Built with: Gamemaker Studio.<br/>
             <a href="https://aacheng.itch.io/morse" target="_blank" rel="noopener noreferrer">itch.io</a>
           </p>
           <br/>
