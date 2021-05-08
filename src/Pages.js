@@ -206,8 +206,9 @@ const pages = [
           <p>If you'd like to try out these apps, please note that some of them are on free hosting services and may take some time to load.</p>
           <h2>Idiot Mouth</h2>
           <p>
-            A barebones online multiplayer text-based word game based on the game Smart Mouth.
-            <a href="http://idiotmouth.herokuapp.com" target="_blank" rel="noopener noreferrer">Play</a>
+            A barebones online multiplayer text-based word game based on the game Smart Mouth.<br/>
+            <a href="http://idiotmouth.herokuapp.com" target="_blank" rel="noopener noreferrer">Play</a><br/>
+            <a href="https://github.com/aacheng17/IdiotMouth" target="_blank" rel="noopener noreferrer">GitHub</a>
           </p>
           <h2>Piano Lights</h2>
           <p>
