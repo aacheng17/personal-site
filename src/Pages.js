@@ -52,8 +52,13 @@ const pages = [
         "Work",
         <div>
           <div style={{ textAlign: "center" }}>
-            <h1>Work</h1>
+          <h1>Work</h1>
           </div>
+          <h2>SDE at Amazon</h2>
+          <p>2021-Present<br /><br/>
+          </p>
+          <br/>
+
           <h2>Intern at iCIMS</h2>
           <p>2020<br /><br/>
           I got the amazing opportunity to be an intern at iCIMS, a group of the friendliest, smartest, and most considerate professionals I know. I worked one on one with my mentor, a senior software engineer at the company, and also with two other interns to build my first full stack web application ("Ratings Site" in my Projects).
@@ -79,7 +84,7 @@ const pages = [
           <br/>
 
           <h2>Math Tutor at Mathnasium Learning Center</h2>
-          <p>2019 - Present<br /><br/>
+          <p>2019 - 2021<br /><br/>
           Mathnasium approaches teaching math with the goal of encouraging children to not only understand but also appreciate and be confident in math. They have personalized learning plans for each student and clear methods for instructors to break down and teach concepts, in which they trained me. I really admire their goal and I'm glad to be working with my center director and teaching math to local kids at Mathnasium.
           <br/><br/>Things I've learned:
           <br/>• Relearning math in its basic concepts in a way that an absolute beginner can understand
@@ -89,7 +94,7 @@ const pages = [
           <br/>
 
           <h2>Freelance Musician</h2>
-          <p>2017 - Present<br /><br/>
+          <p>2017 - 2021<br /><br/>
           In high school I started playing jazz at local events with some friends and since then I've performed at restaurants, weddings, and coffeehouses. I absolutely love music and I'm mad I don't get the chance to play as often now. I really enjoy improvising and I would love to one day release music or develop an AI that improvises music.
           <br/><br/>Things I've learned:
           <br/>• Music: Improvisation, arranging, group performance, sound engineering
@@ -173,7 +178,7 @@ const pages = [
           </ul>
           <ul>
             <li>Minds, Machines, and Persons</li>
-            <li>Applied Symbolic Logic</li>
+            <li>Modal Logic</li>
             <li>Philosophy of Physics</li>
             <li>Metaphysics</li>
           </ul>
