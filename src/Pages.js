@@ -30,7 +30,7 @@ const pages = [
             <br />
             Founder and Teacher of A* Tutoring
             <br />
-            Jazz and Pop Gig Pianist
+            Event and Wedding Pianist
             <br />
           </h3>
           You can download my resume <a href="https://drive.google.com/drive/folders/1xerhk576vISiP_rmWC8atil-u3VYzTeo?usp=sharing" target="_blank" rel="noopener noreferrer">here</a> if you want more concise information
