@@ -212,7 +212,7 @@ const pages = [
           <h2>Idiot Mouth</h2>
           <p>
             Barebones online multiplayer text-based word game based on the game Smart Mouth.<br/>Built with: Go<br/>
-            <a href="http://idiotmouth.herokuapp.com" target="_blank" rel="noopener noreferrer">Play</a><br/>
+            <a href="https://idiotmouth.herokuapp.com" target="_blank" rel="noopener noreferrer">Play</a><br/>
             <a href="https://github.com/aacheng17/IdiotMouth" target="_blank" rel="noopener noreferrer">GitHub</a>
           </p>
           <h2>Piano Lights</h2>
