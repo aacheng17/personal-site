@@ -137,7 +137,7 @@ const pages = [
           <h2>Proficient</h2>
           <p>C, C#, JavaScript, HTML, CSS, Go, Dart, SQL</p>
           <h2>Familiar</h2>
-          <p>Haskell, Prolog</p>
+          <p>PHP, Haskell, Prolog</p>
           <h2>Other Software</h2>
           <p>
             Git, Flutter<br />
@@ -212,7 +212,7 @@ const pages = [
           <h2>Idiot Mouth</h2>
           <p>
             Barebones online multiplayer text-based word game based on the game Smart Mouth.<br/>Built with: Go<br/>
-            <a href="https://idiotmouth.herokuapp.com" target="_blank" rel="noopener noreferrer">Play</a><br/>
+            <a href="https://idiotmouth.herokuapp.com/idiotmouth" target="_blank" rel="noopener noreferrer">Play</a><br/>
             <a href="https://github.com/aacheng17/IdiotMouth" target="_blank" rel="noopener noreferrer">GitHub</a>
           </p>
           <h2>Piano Lights</h2>
