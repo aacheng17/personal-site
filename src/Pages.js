@@ -244,7 +244,6 @@ const pages = [
           <h2>BadTranslator</h2>
           <p>
             Small web app that translates your input to other languages and back.<br/>Built with: Flutter and Dart, NodeJS. Uses the Google Translate API.<br/>
-            {{ ""/*<a href="https://badtranslator-284415.web.app" target="_blank" rel="noopener noreferrer">Link to site</a><br/>*/ }}
             <a href="https://github.com/aacheng17/BadTranslator" target="_blank" rel="noopener noreferrer">GitHub</a>
           </p>
           <h2>Steal Shield Stab</h2>
