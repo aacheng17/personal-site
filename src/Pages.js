@@ -26,7 +26,7 @@ const pages = [
           <h2>Welcome to my personal website<br />I'm Aaron Cheng</h2>
           <br/>
           <h3>
-            Computer Science Student at Rutgers University
+            Software Development Engineer at Amazon Web Services
             <br />
             Founder and Teacher of A* Tutoring
             <br />
@@ -54,8 +54,31 @@ const pages = [
           <div style={{ textAlign: "center" }}>
           <h1>Work</h1>
           </div>
-          <h2>SDE at Amazon</h2>
+          <h2>Software Development Engineer at Amazon Web Servicesn</h2>
           <p>2021-Present<br /><br/>
+          </p>
+          <br/>
+
+          <h2>Founder and Tutor of <a href="https://tutors.com/nj/sayreville/math-tutors/aaron-cheng-tutoring" target="_blank" rel="noopener noreferrer">A* Tutoring</a></h2>
+          <p>2013 - Present<br /><br/>
+          I've been teaching since I was a freshman in high school. It started with piano but in the past few years I've expanded to programming, K-12 math, AP Physics, and English. Since I started two other teachers have begun teaching under the name of A* Tutoring, covering chemistry, multivariable calculus, Spanish, violin, viola, and ESL. I've acted as the marketer, communicating with potential students. I pride myself on working towards making material intuitive to students, not just aiming for a grade, and adapting to different student goals and needs.
+          <br/><br/>Things I've learned:
+          <br/>• Teaching and communicating skills: Breaking an idea down and presenting it clearly
+          <br/>• Interpersonal skills: Understanding what others are thinking and why they are struggling or succeeding
+          <br/>• Managing: Organizing schedules and payments, as well as coordinating with other teachers
+          <br/>• Marketing: Presenting my service honestly, effectively, and across different mediums
+          </p>
+          <br/>
+
+          <h2>Freelance Musician</h2>
+          <p>2017 - Present<br /><br/>
+          In high school I started playing jazz at local events with some friends and since then I've performed at restaurants, weddings, and coffeehouses. I absolutely love music and I'm mad I don't get the chance to play as often now. I really enjoy improvising and I would love to one day release music or develop an AI that improvises music.
+          <br/><br/>Things I've learned:
+          <br/>• Music: Improvisation, arranging, group performance, sound engineering
+          <br/>• Confidence in front of a crowd
+          <br/>• Making the best of mistakes
+          <br/>• How to practice
+          <br/>• Working with a team and sticking to a plan
           </p>
           <br/>
 
@@ -72,17 +95,6 @@ const pages = [
           </p>
           <br/>
 
-          <h2>Founder and Tutor of <a href="https://tutors.com/nj/sayreville/math-tutors/aaron-cheng-tutoring" target="_blank" rel="noopener noreferrer">A* Tutoring</a></h2>
-          <p>2013 - Present<br /><br/>
-          I've been teaching since I was a freshman in high school. It started with piano but in the past few years I've expanded to programming, K-12 math, AP Physics, and English. Since I started two other teachers have begun teaching under the name of A* Tutoring, covering chemistry, multivariable calculus, Spanish, violin, viola, and ESL. I've acted as the marketer, communicating with potential students. I pride myself on working towards making material intuitive to students, not just aiming for a grade, and adapting to different student goals and needs.
-          <br/><br/>Things I've learned:
-          <br/>• Teaching and communicating skills: Breaking an idea down and presenting it clearly
-          <br/>• Interpersonal skills: Understanding what others are thinking and why they are struggling or succeeding
-          <br/>• Managing: Organizing schedules and payments, as well as coordinating with other teachers
-          <br/>• Marketing: Presenting my service honestly, effectively, and across different mediums
-          </p>
-          <br/>
-
           <h2>Math Tutor at Mathnasium Learning Center</h2>
           <p>2019 - 2021<br /><br/>
           Mathnasium approaches teaching math with the goal of encouraging children to not only understand but also appreciate and be confident in math. They have personalized learning plans for each student and clear methods for instructors to break down and teach concepts, in which they trained me. I really admire their goal and I'm glad to be working with my center director and teaching math to local kids at Mathnasium.
@@ -90,18 +102,6 @@ const pages = [
           <br/>• Relearning math in its basic concepts in a way that an absolute beginner can understand
           <br/>• Trying different strategies of articulating these concepts 
           <br/>• Engaging with kids of all different personalities and learning needs
-          </p>
-          <br/>
-
-          <h2>Freelance Musician</h2>
-          <p>2017 - 2021<br /><br/>
-          In high school I started playing jazz at local events with some friends and since then I've performed at restaurants, weddings, and coffeehouses. I absolutely love music and I'm mad I don't get the chance to play as often now. I really enjoy improvising and I would love to one day release music or develop an AI that improvises music.
-          <br/><br/>Things I've learned:
-          <br/>• Music: Improvisation, arranging, group performance, sound engineering
-          <br/>• Confidence in front of a crowd
-          <br/>• Making the best of mistakes
-          <br/>• How to practice
-          <br/>• Working with a team and sticking to a plan
           </p>
           <br/>
 
@@ -133,9 +133,9 @@ const pages = [
             <h1>Skills</h1>
           </div>
           <h2>Experienced</h2>
-          <p>Python, Java</p>
+          <p>Python, Java, C#, SQL</p>
           <h2>Proficient</h2>
-          <p>C, C#, JavaScript, HTML, CSS, Go, Dart, SQL</p>
+          <p>C, JavaScript, HTML, CSS, Go, Dart</p>
           <h2>Familiar</h2>
           <p>PHP, Haskell, Prolog</p>
           <h2>Other Software</h2>
@@ -211,8 +211,8 @@ const pages = [
           <p>If you'd like to try out these apps, please note that some of them are on free hosting services and may take some time to load.</p>
           <h2>Idiot Mouth</h2>
           <p>
-            Barebones online multiplayer text-based word game based on the game Smart Mouth.<br/>Built with: Go<br/>
-            <a href="https://idiotmouth.herokuapp.com/idiotmouth" target="_blank" rel="noopener noreferrer">Play</a><br/>
+            Compilation of small online multiplayer browser games.<br/>Built with: Go, JavaScript.<br/>
+            <a href="https://idiotmouth.herokuapp.com" target="_blank" rel="noopener noreferrer">Play</a><br/>
             <a href="https://github.com/aacheng17/IdiotMouth" target="_blank" rel="noopener noreferrer">GitHub</a>
           </p>
           <h2>Piano Lights</h2>
@@ -224,6 +224,11 @@ const pages = [
           <p>
             Online multiplayer bluffing card game. Art by <a href="https://angelinac.pb.online" target="_blank" rel="noopener noreferrer">Angelina Cheng</a>.<br/>Built with: NodeJS, ReactJS.<br/>
             <a href="https://mockroach.herokuapp.com" target="_blank" rel="noopener noreferrer">Play</a>
+          </p>
+          <h2>WargrooveCalc</h2>
+          <p>
+            Simple damage calculator for the strategy game Wargroove.<br/>Built with: PHP, HTML.<br/>
+            <a href="https://wargroovecalc.herokuapp.com" target="_blank" rel="noopener noreferrer">Play</a>
           </p>
           <h2>Idiot Boy</h2>
           <p>
@@ -237,13 +242,14 @@ const pages = [
           </p>
           <h2>Ratings Site</h2>
           <p>
-            Full stack web app that scrapes and aggregates popular movie data from IMDb, Rotten Tomatoes, and MetaCritic, developed with two other team members.<br/>Built with: Java Spring, ReactJS, web scraping with Python Beautiful Soup and Selenium, hosting on Microsoft Azure.<br/>
+            Full stack web app that scrapes and aggregates popular movie data from IMDb, Rotten Tomatoes, and MetaCritic, developed with two other team members.<br/>Built with: Java Spring, ReactJS, web scraping with Python Beautiful Soup and Selenium.<br/>
             <a href="https://ratingssite.azurewebsites.net" target="_blank" rel="noopener noreferrer">Link to site</a><br/>
             <a href="https://github.com/aacheng17/RatingsSite" target="_blank" rel="noopener noreferrer">GitHub</a>
           </p>
           <h2>BadTranslator</h2>
           <p>
             Small web app that translates your input to other languages and back.<br/>Built with: Flutter and Dart, NodeJS. Uses the Google Translate API.<br/>
+            <a href="https://badtranslator-284415.web.app/#/" target="_blank" rel="noopener noreferrer">Link</a>
             <a href="https://github.com/aacheng17/BadTranslator" target="_blank" rel="noopener noreferrer">GitHub</a>
           </p>
           <h2>Steal Shield Stab</h2>
