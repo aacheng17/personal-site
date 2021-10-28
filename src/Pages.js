@@ -54,8 +54,9 @@ const pages = [
           <div style={{ textAlign: "center" }}>
           <h1>Work</h1>
           </div>
-          <h2>Software Development Engineer at Amazon Web Servicesn</h2>
+          <h2>Software Development Engineer at Amazon Web Services</h2>
           <p>2021-Present<br /><br/>
+          Java and C#
           </p>
           <br/>
 
