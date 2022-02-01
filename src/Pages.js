@@ -46,7 +46,7 @@ const pages = [
           Things that I hold close to my heart include philosophy of science, electronic jazz, and 2D art and animation.
           <br/><br/>Right now I'm working on mindfulness, rock climbing, and video game skills.
           <br/><br/>I love dry and abrupt humor.
-          <br/><br/>I've been having a lot of fun teaching CS but I think my favorite teaching experience is the semester where I a professional cook pass an online physics and cooking class.
+          <br/><br/>I've been having a lot of fun teaching CS but I think my favorite teaching experience is the semester where I helped a professional cook pass their online physics and cooking class.
         </div>
       )
     ]
