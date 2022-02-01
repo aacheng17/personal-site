@@ -40,6 +40,8 @@ const pages = [
           <a href="https://github.com/aacheng17" target="_blank" rel="noopener noreferrer">GitHub</a>
           <br/>
           <a href="https://aacheng.itch.io" target="_blank" rel="noopener noreferrer">itch.io</a>
+          <br/><br/><br/>
+          <b>About me_ </b> My passions are coding, teaching, and electronic jazz. I'm also interested in philosophies of science, 2D animation, and rock climbing.
         </div>
       )
     ]
@@ -195,7 +197,7 @@ const pages = [
           <h2>Idiot Boy</h2>
           <p>
             Simple visualization of a spiking neural network that learns to recognize numbers, named for its poor performance during early development.<br/>Built with: Gamemaker Studio.<br/>
-            <a href="https://www.youtube.com/watch?v=ArK8bcnidL0" target="_blank" rel="noopener noreferrer">Video</a>
+            <a href="https://www.youtube.com/watch?v=ArK8bcnidL0" target="_blank" rel="noopener noreferrer">Watch</a>
           </p>
           <h2>Idiot Mouth</h2>
           <p>
