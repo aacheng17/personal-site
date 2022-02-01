@@ -40,6 +40,10 @@ const pages = [
           <a href="https://github.com/aacheng17" target="_blank" rel="noopener noreferrer">GitHub</a>
           <br/>
           <a href="https://aacheng.itch.io" target="_blank" rel="noopener noreferrer">itch.io</a>
+          <br/>
+          <b>A bit about me</b>
+          <br/>
+          Things that I hold close to my heart include philosophy of science, electronic jazz, and 2D art and animation. Right now I'm working on mindfulness, rock climbing, and video game skills. I love dry and abrupt humor. I've been having a lot of fun teaching CS but I think my favorite teaching experience is the semester where I a professional cook pass an online physics and cooking class. My wish is that I and others can be kinder than our previous selves.
         </div>
       )
     ]
@@ -136,18 +140,18 @@ const pages = [
             <h1>Skills</h1>
           </div>
           <h2>Experienced</h2>
-          <p>Python, Java, C#, SQL</p>
+          <p>Java, C#, Python, SQL, Git</p>
           <h2>Proficient</h2>
-          <p>C, JavaScript, HTML, CSS, Go, Dart</p>
+          <p>C, JavaScript, HTML, CSS, Go</p>
           <h2>Familiar</h2>
           <p>PHP, Haskell, Prolog</p>
           <h2>Other Software</h2>
           <p>
-            Git, Flutter<br />
             Gamemaker Studio, Unity<br />
             Reaper, Audacity, Finale<br />
-            NCH Videopad Editor, Inkscape Vector Graphics<br />
+            Adobe Premiere, NCH Videopad Editor, Inkscape Vector Graphics<br />
             Blender, Autodesk Inventor<br/>
+            Flutter, Dart<br/>
           </p>
           <br/>
         </div>
@@ -180,7 +184,7 @@ const pages = [
             <li>Computer Security</li>
           </ul>
           <ul>
-            <li>Minds, Machines, and Persons</li>
+            <li>AI Ethics</li>
             <li>Modal Logic</li>
             <li>Philosophy of Physics</li>
             <li>Metaphysics</li>
@@ -206,7 +210,7 @@ const pages = [
   ),
   new Page(
     "/portfolio",
-    "Portfolio",
+    "Personal Projects",
     [
       new Slide(
         "Projects",
@@ -214,18 +218,18 @@ const pages = [
           <p>If you'd like to try out these apps, please note that some of them are on free hosting services and may take a minute to load.</p>
           <h2>Idiot Mouth</h2>
           <p>
-            Compilation of small online multiplayer browser games.<br/>Built with: Go, JavaScript.<br/>
+            Collection of small online multiplayer browser games.<br/>Built with: Go, JavaScript.<br/>
             <a href="https://idiotmouth.herokuapp.com" target="_blank" rel="noopener noreferrer">Play</a><br/>
             <a href="https://github.com/aacheng17/IdiotMouth" target="_blank" rel="noopener noreferrer">GitHub</a>
           </p>
           <h2>Piano Lights</h2>
           <p>
-            3D piano midi file visualizer.<br/>Built with: Unity, C#.<br/>
+            Stylish 3D piano midi file visualizer.<br/>Built with: Unity, C#.<br/>
             <a href="https://www.youtube.com/watch?v=50TrGN4quV4" target="_blank" rel="noopener noreferrer">Watch</a>
           </p>
           <h2>Mockroach</h2>
           <p>
-            Online multiplayer bluffing card game. Art by <a href="https://angelinac.pb.online" target="_blank" rel="noopener noreferrer">Angelina Cheng</a>.<br/>Built with: NodeJS, ReactJS.<br/>
+            Browser based bluffing card game. Art by <a href="https://angelinac.pb.online" target="_blank" rel="noopener noreferrer">Angelina Cheng</a>.<br/>Built with: NodeJS, ReactJS.<br/>
             <a href="https://mockroach.herokuapp.com" target="_blank" rel="noopener noreferrer">Play</a>
           </p>
           <h2>WargrooveCalc</h2>
@@ -240,7 +244,7 @@ const pages = [
           </p>
           <h2>Personal Site</h2>
           <p>
-            This current website.<br/>Built with: ReactJS.<br/>
+            The website you're on!<br/>Built with: ReactJS.<br/>
             <a href="https://github.com/aacheng17/personal-site" target="_blank" rel="noopener noreferrer">GitHub</a>
           </p>
           <h2>Ratings Site</h2>
@@ -251,7 +255,7 @@ const pages = [
           </p>
           <h2>BadTranslator</h2>
           <p>
-            Small web app that translates your input to other languages and back.<br/>Built with: Flutter and Dart, NodeJS. Uses the Google Translate API.<br/>
+          Website and back end API for laughably bad translations.<br/>Built with: Flutter and Dart, NodeJS. Uses the Google Translate API.<br/>
             <a href="https://badtranslator-284415.web.app/#/" target="_blank" rel="noopener noreferrer">Link</a><br/>
             <a href="https://github.com/aacheng17/BadTranslator" target="_blank" rel="noopener noreferrer">GitHub</a>
           </p>
