@@ -58,7 +58,7 @@ const pages = [
           </div>
 
           <h2>Software Development Engineer at Amazon Web Services</h2>
-          <p>2021-Present<br /><br/>
+          <p>2021 - Present<br /><br/>
           • Develop in Java and C# to maintain and grow SQL Server high-availability database hosting services
           <br/>• Collaborate with teammates to design and write high-quality, readable, and testable code
           <br/>• Identify and make improvements to existing code, reducing tech debt and increasing code efficiency
