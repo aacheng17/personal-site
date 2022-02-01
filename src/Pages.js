@@ -69,7 +69,7 @@ const pages = [
 
           <h2>Founder and Tutor of <a href="https://tutors.com/nj/sayreville/math-tutors/aaron-cheng-tutoring" target="_blank" rel="noopener noreferrer">A* Tutoring</a></h2>
           <p>2013 - Present<br /><br/>
-          <br/>• Teach computer science, math, physics, music, and English with a focus on intuitive understanding
+          • Teach computer science, math, physics, music, and English with a focus on intuitive understanding
           <br/>• Manage communications, scheduling, and payments with students and parents
           <br/>• Adapt teaching style to accommodate a wide range of students with different ages, experience levels, skillsets, backgrounds, dispositions, and goals
           <br/>• Conduct marketing and correspondence with potential students for other tutors
