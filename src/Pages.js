@@ -40,10 +40,13 @@ const pages = [
           <a href="https://github.com/aacheng17" target="_blank" rel="noopener noreferrer">GitHub</a>
           <br/>
           <a href="https://aacheng.itch.io" target="_blank" rel="noopener noreferrer">itch.io</a>
-          <br/>
+          <br/><br/><br/>
           <b>A bit about me</b>
           <br/>
-          Things that I hold close to my heart include philosophy of science, electronic jazz, and 2D art and animation. Right now I'm working on mindfulness, rock climbing, and video game skills. I love dry and abrupt humor. I've been having a lot of fun teaching CS but I think my favorite teaching experience is the semester where I a professional cook pass an online physics and cooking class. My wish is that I and others can be kinder than our previous selves.
+          Things that I hold close to my heart include philosophy of science, electronic jazz, and 2D art and animation.
+          <br/><br/>Right now I'm working on mindfulness, rock climbing, and video game skills.
+          <br/><br/>I love dry and abrupt humor.
+          <br/><br/>I've been having a lot of fun teaching CS but I think my favorite teaching experience is the semester where I a professional cook pass an online physics and cooking class.
         </div>
       )
     ]
