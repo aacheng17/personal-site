@@ -187,16 +187,21 @@ const pages = [
         "Projects",
         <div>
           <p>If you'd like to try out these apps, please note that some of them are on free hosting services and may take a minute to load.</p>
+          <h2>Piano Lights</h2>
+          <p>
+            Stylish 3D piano midi file visualizer.<br/>Built with: Unity, C#.<br/>
+            <a href="https://www.youtube.com/watch?v=50TrGN4quV4" target="_blank" rel="noopener noreferrer">Watch</a>
+          </p>
+          <h2>Idiot Boy</h2>
+          <p>
+            Simple visualization of a spiking neural network that learns to recognize numbers, named for its poor performance during early development.<br/>Built with: Gamemaker Studio.<br/>
+            <a href="https://www.youtube.com/watch?v=ArK8bcnidL0" target="_blank" rel="noopener noreferrer">Video</a>
+          </p>
           <h2>Idiot Mouth</h2>
           <p>
             Collection of small online multiplayer browser games.<br/>Built with: Go, JavaScript.<br/>
             <a href="https://idiotmouth.herokuapp.com" target="_blank" rel="noopener noreferrer">Play</a><br/>
             <a href="https://github.com/aacheng17/IdiotMouth" target="_blank" rel="noopener noreferrer">GitHub</a>
-          </p>
-          <h2>Piano Lights</h2>
-          <p>
-            Stylish 3D piano midi file visualizer.<br/>Built with: Unity, C#.<br/>
-            <a href="https://www.youtube.com/watch?v=50TrGN4quV4" target="_blank" rel="noopener noreferrer">Watch</a>
           </p>
           <h2>Mockroach</h2>
           <p>
@@ -208,11 +213,6 @@ const pages = [
             Simple damage calculator for the strategy game Wargroove.<br/>Built with: PHP, HTML.<br/>
             <a href="https://wargroovecalc.herokuapp.com" target="_blank" rel="noopener noreferrer">Website</a>
           </p>
-          <h2>Idiot Boy</h2>
-          <p>
-            Simple visualization of a spiking neural network that learns to recognize numbers.<br/>Built with: Gamemaker Studio.<br/>
-            <a href="https://www.youtube.com/watch?v=ArK8bcnidL0" target="_blank" rel="noopener noreferrer">Video</a>
-          </p>
           <h2>Personal Site</h2>
           <p>
             The website you're on!<br/>Built with: ReactJS.<br/>
@@ -220,7 +220,7 @@ const pages = [
           </p>
           <h2>Ratings Site</h2>
           <p>
-            Full stack web app that scrapes and aggregates popular movie data from IMDb, Rotten Tomatoes, and MetaCritic, developed with two other team members.<br/>Built with: Java Spring, ReactJS, web scraping with Python Beautiful Soup and Selenium.<br/>
+            Full stack web app that scrapes and aggregates popular movie data from IMDb, Rotten Tomatoes, and MetaCritic, developed with two other team members.<br/>Built with: Java Spring, ReactJS, MySQL, Python<br/>
             <a href="https://ratingssite.azurewebsites.net" target="_blank" rel="noopener noreferrer">Link to site</a><br/>
             <a href="https://github.com/aacheng17/RatingsSite" target="_blank" rel="noopener noreferrer">GitHub</a>
           </p>
