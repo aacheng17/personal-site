@@ -26,7 +26,7 @@ const pages = [
           <h2>Welcome to my personal website<br />I'm Aaron Cheng</h2>
           <br/>
           <h3>
-            Software Development Engineer at Amazon Web Services
+            SDE I at Amazon Web Services
             <br />
             Founder and Teacher of A* Tutoring
             <br />
@@ -35,11 +35,11 @@ const pages = [
           </h3>
           You can download my resume <a href="https://drive.google.com/drive/folders/1xerhk576vISiP_rmWC8atil-u3VYzTeo?usp=sharing" target="_blank" rel="noopener noreferrer">here</a> if you want more concise information
           <br/>
+          <a href="https://tutors.com/nj/sayreville/math-tutors/aaron-cheng-tutoring" target="_blank" rel="noopener noreferrer">A* Tutoring</a>
+          <br/>
           <a href="https://github.com/aacheng17" target="_blank" rel="noopener noreferrer">GitHub</a>
           <br/>
           <a href="https://aacheng.itch.io" target="_blank" rel="noopener noreferrer">itch.io</a>
-          <br/>
-          <a href="https://tutors.com/nj/sayreville/math-tutors/aaron-cheng-tutoring" target="_blank" rel="noopener noreferrer">A* Tutoring</a>
         </div>
       )
     ]
@@ -54,6 +54,7 @@ const pages = [
           <div style={{ textAlign: "center" }}>
           <h1>Work</h1>
           </div>
+
           <h2>Software Development Engineer at Amazon Web Services</h2>
           <p>2021-Present<br /><br/>
           Java and C#
@@ -85,7 +86,7 @@ const pages = [
 
           <h2>Intern at iCIMS</h2>
           <p>2020<br /><br/>
-          I got the amazing opportunity to be an intern at iCIMS, a group of the friendliest, smartest, and most considerate professionals I know. I worked one on one with my mentor, a senior software engineer at the company, and also with two other interns to build my first full stack web application ("Ratings Site" in my Projects).
+          iCIMS develops talent acquisition software that employers use to facilitate hiring processes. I worked one on one with my mentor and other interns to build a full stack web application ("Ratings Site" in my Projects).
           <br/><br/>Things I learned:
           <br/>• Web development with Java Spring
           <br/>• Front end web design with ReactJS
@@ -98,7 +99,7 @@ const pages = [
 
           <h2>Math Tutor at Mathnasium Learning Center</h2>
           <p>2019 - 2021<br /><br/>
-          Mathnasium approaches teaching math with the goal of encouraging children to not only understand but also appreciate and be confident in math. They have personalized learning plans for each student and clear methods for instructors to break down and teach concepts, in which they trained me. I really admire their goal and I'm glad to be working with my center director and teaching math to local kids at Mathnasium.
+          Mathnasium approaches teaching math with the goal of encouraging children to not only understand but also appreciate and be confident in math. I was trained in their unique teaching approach, and taught small groups of students at a time.
           <br/><br/>Things I've learned:
           <br/>• Relearning math in its basic concepts in a way that an absolute beginner can understand
           <br/>• Trying different strategies of articulating these concepts 
@@ -108,7 +109,8 @@ const pages = [
 
           <h2>Music and Tech Intern for the Rockit! Live Foundation</h2>
           <p>2018 - 2019<br /><br/>
-          Rockit is a nonprofit music education and performance program headed by an extremely passionate group of musicians, possibly only matched by the talent and passion of the kids they teach. I worked closely with the founder and head of the organization, putting together videos, editing photos for the website and postcards, assembling ad journals, designing posters, flyers, and event invitations, and corresponding with printing companies. They're an amazing educational program and I'm proud to have been a part of it, those kids are insane musicians.
+          Rockit is an amazing nonprofit music education and performance program for kids in New Jersey. I worked closely with the founder and head of the organization, Bruce Gallipani.
+          I put videos together, edited photos for the website and postcards, assembled ad journals, designed posters, flyers, and event invitations, and corresponded with printing companies.
           <br/><br/>Things I learned:
           <br/>• Photoshop and Inkscape Vector Graphics
           <br/>• Visual design and the printing and marketing process
@@ -118,7 +120,7 @@ const pages = [
 
           <h2>Video Production Intern at Cinecall Productions</h2>
           <p>2017<br /><br/>
-          Cinecall is a great production studio and I had the privilege of working directly with the head of it. I helped put together media ranging from documentaries concert DVDs.
+          Cinecall is a great production studio that often works with local charities and nonprofits. I had the privilege of working directly with the head of it, George McMorrow. I helped put together media ranging from documentaries concert DVDs.
           <br/><br/>Things I learned:
           <br/>• Adobe Premiere
           <br/>• Video editing and production techniques
@@ -209,7 +211,7 @@ const pages = [
       new Slide(
         "Projects",
         <div>
-          <p>If you'd like to try out these apps, please note that some of them are on free hosting services and may take some time to load.</p>
+          <p>If you'd like to try out these apps, please note that some of them are on free hosting services and may take a minute to load.</p>
           <h2>Idiot Mouth</h2>
           <p>
             Compilation of small online multiplayer browser games.<br/>Built with: Go, JavaScript.<br/>
@@ -229,7 +231,7 @@ const pages = [
           <h2>WargrooveCalc</h2>
           <p>
             Simple damage calculator for the strategy game Wargroove.<br/>Built with: PHP, HTML.<br/>
-            <a href="https://wargroovecalc.herokuapp.com" target="_blank" rel="noopener noreferrer">Play</a>
+            <a href="https://wargroovecalc.herokuapp.com" target="_blank" rel="noopener noreferrer">Website</a>
           </p>
           <h2>Idiot Boy</h2>
           <p>
@@ -250,7 +252,7 @@ const pages = [
           <h2>BadTranslator</h2>
           <p>
             Small web app that translates your input to other languages and back.<br/>Built with: Flutter and Dart, NodeJS. Uses the Google Translate API.<br/>
-            <a href="https://badtranslator-284415.web.app/#/" target="_blank" rel="noopener noreferrer">Link</a>
+            <a href="https://badtranslator-284415.web.app/#/" target="_blank" rel="noopener noreferrer">Link</a><br/>
             <a href="https://github.com/aacheng17/BadTranslator" target="_blank" rel="noopener noreferrer">GitHub</a>
           </p>
           <h2>Steal Shield Stab</h2>
