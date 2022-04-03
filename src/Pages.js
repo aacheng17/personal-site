@@ -23,25 +23,15 @@ const pages = [
       new Slide(
         "",
         <div>
-          <h2>Welcome to my personal website<br />I'm Aaron Cheng</h2>
-          <br/>
-          <h3>
-            SDE I at Amazon Web Services
-            <br />
-            Founder and Teacher of A* Tutoring
-            <br />
-            Event and Wedding Pianist
-            <br />
-          </h3>
-          You can download my resume <a href="https://drive.google.com/drive/folders/1xerhk576vISiP_rmWC8atil-u3VYzTeo?usp=sharing" target="_blank" rel="noopener noreferrer">here</a> if you want more concise information
-          <br/>
-          <a href="https://tutors.com/nj/sayreville/math-tutors/aaron-cheng-tutoring" target="_blank" rel="noopener noreferrer">A* Tutoring</a>
-          <br/>
-          <a href="https://github.com/aacheng17" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <br/>
-          <a href="https://aacheng.itch.io" target="_blank" rel="noopener noreferrer">itch.io</a>
-          <br/><br/><br/>
-          <b>About me_ </b> My passions are coding, teaching, and electronic jazz. I'm also interested in philosophies of science, 2D animation, and rock climbing.
+          <h3>Hi, I'm Aaron. Welcome to my online resume!</h3>
+          <b>A bit about me</b><br/>
+          • On weekdays I'm an SDE at AWS<br/>
+          • On weekends I tutor stuff like coding and piano<br/>
+          • (You can see my students' scathing critiques of me <a href="https://tutors.com/nj/sayreville/math-tutors/aaron-cheng-tutoring" target="_blank" rel="noopener noreferrer">here</a>)<br/>
+          • I'm interested in game design, jazz piano, and philosophies of science<br/>
+          • My email is aacheng17@gmail.com<br/><br/>
+          This website is my online resume<br/>It exists so that I can say that I know JavaScript! Happy reading :)<br/>
+
         </div>
       )
     ]
@@ -58,54 +48,47 @@ const pages = [
           </div>
 
           <h2>Software Development Engineer at Amazon Web Services</h2>
-          <p>2021 - Present<br /><br/>
+          <p>2021 - Present<br />
           • Develop in Java and C# to maintain and grow SQL Server high-availability database hosting services
           <br/>• Collaborate with teammates to design and write high-quality, readable, and testable code
           <br/>• Identify and make improvements to existing code, reducing tech debt and increasing code efficiency
-          <br/>• Iterate quickly, manage deployments, and own projects and metrics
-          <br/>• Perform operations work and on-call shifts to directly diagnose and fix customer facing issues
+          <br/>• Own and monitor production metrics to identify customer needs and plan future code changes
+          <br/>• Perform operations work and oncall shifts to directly diagnose and fix customer facing issues
           </p>
-          <br/>
 
           <h2>Founder and Tutor of <a href="https://tutors.com/nj/sayreville/math-tutors/aaron-cheng-tutoring" target="_blank" rel="noopener noreferrer">A* Tutoring</a></h2>
-          <p>2013 - Present<br /><br/>
+          <p>2013 - Present<br />
           • Teach computer science, math, physics, music, and English with a focus on intuitive understanding
           <br/>• Manage communications, scheduling, and payments with students and parents
           <br/>• Adapt teaching style to accommodate a wide range of students with different ages, experience levels, skillsets, backgrounds, dispositions, and goals
           <br/>• Conduct marketing and correspondence with potential students for other tutors
           </p>
-          <br/>
 
           <h2>Freelance Musician</h2>
-          <p>2017 - Present<br /><br/>
+          <p>2017 - Present<br />
           • Perform classical, jazz, and pop music at local events and weddings
           </p>
-          <br/>
 
           <h2>Intern at iCIMS</h2>
-          <p>2020<br /><br/>
-          • Collaborated with intern team to build and deploy a full stack web application
+          <p>2020<br />
+          • Collaborated with intern team to build and deploy a full stack web application<br/>
           • Gained experience in web development, front end design, MVC architecture, web scraping, web APIs
           </p>
-          <br/>
 
-          <h2>Math Tutor at Mathnasium Learning Center</h2>
-          <p>2019 - 2021<br /><br/>
+          <h2>Tutor at Mathnasium Learning Center</h2>
+          <p>2019 - 2021<br />
           • Taught small groups of K-12 math students
           </p>
-          <br/>
 
           <h2>Music and Tech Intern for the Rockit! Live Foundation</h2>
-          <p>2018 - 2019<br /><br/>
+          <p>2018 - 2019<br />
           • Managed website, social media, posters, flyers, and advertising
           </p>
-          <br/>
 
           <h2>Video Production Intern at Cinecall Productions</h2>
-          <p>2017<br /><br/>
+          <p>2017<br />
           • Produced documentary and concert videos
           </p>
-          <br/>
         </div>
       ),
       new Slide(
@@ -209,11 +192,6 @@ const pages = [
           <p>
             Browser based bluffing card game. Art by <a href="https://angelinac.pb.online" target="_blank" rel="noopener noreferrer">Angelina Cheng</a>.<br/>Built with: NodeJS, ReactJS.<br/>
             <a href="https://mockroach.herokuapp.com" target="_blank" rel="noopener noreferrer">Play</a>
-          </p>
-          <h2>WargrooveCalc</h2>
-          <p>
-            Simple damage calculator for the strategy game Wargroove.<br/>Built with: PHP, HTML.<br/>
-            <a href="https://wargroovecalc.herokuapp.com" target="_blank" rel="noopener noreferrer">Website</a>
           </p>
           <h2>Personal Site</h2>
           <p>
