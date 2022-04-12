@@ -28,10 +28,10 @@ const pages = [
           • On weekdays I'm an SDE at AWS<br/>
           • On weekends I tutor stuff like coding and piano<br/>
           • (You can see my students' scathing critiques of me <a href="https://tutors.com/nj/sayreville/math-tutors/aaron-cheng-tutoring" target="_blank" rel="noopener noreferrer">here</a>)<br/>
-          • I'm interested in game design, jazz piano, and philosophies of science<br/>
-          • My email is aacheng17@gmail.com<br/><br/>
-          This website is my online resume<br/>It exists so that I can say that I know JavaScript! Happy reading :)<br/>
-
+          • I'm interested in game design, jazz piano, and philosophies of science<br/><br/>
+          This website is my online resume<br/>
+          It exists so that I can say that I know JavaScript! Happy reading :)<br/><br/>
+          <a href="https://www.linkedin.com/in/aaron-cheng-b93a711a7/" target="_blank" rel="noopener noreferrer">LinkedIn</a> - <a href="https://github.com/aacheng17" target="_blank" rel="noopener noreferrer">GitHub</a> - <a href="mailto: aacheng17@gmail.com">Email</a> - <a href="https://aaronchengcs.herokuapp.com/favicon.ico" target="_blank" rel="noopener noreferrer">Resume PDF</a>
         </div>
       )
     ]
@@ -49,19 +49,12 @@ const pages = [
 
           <h2>Software Development Engineer at Amazon Web Services</h2>
           <p>2021 - Present<br />
-          • Develop in Java and C# to maintain and grow SQL Server high-availability database hosting services
-          <br/>• Collaborate with teammates to design and write high-quality, readable, and testable code
-          <br/>• Identify and make improvements to existing code, reducing tech debt and increasing code efficiency
-          <br/>• Own and monitor production metrics to identify customer needs and plan future code changes
-          <br/>• Perform operations work and oncall shifts to directly diagnose and fix customer facing issues
+          • Develop in Java and C# to provision SQLServer high-availability database hosting services
           </p>
 
           <h2>Founder and Tutor of <a href="https://tutors.com/nj/sayreville/math-tutors/aaron-cheng-tutoring" target="_blank" rel="noopener noreferrer">A* Tutoring</a></h2>
           <p>2013 - Present<br />
-          • Teach computer science, math, physics, music, and English with a focus on intuitive understanding
-          <br/>• Manage communications, scheduling, and payments with students and parents
-          <br/>• Adapt teaching style to accommodate a wide range of students with different ages, experience levels, skillsets, backgrounds, dispositions, and goals
-          <br/>• Conduct marketing and correspondence with potential students for other tutors
+          • In-person and online tutoring in programming, K-12 math, high school physics, piano, and English
           </p>
 
           <h2>Freelance Musician</h2>
@@ -71,8 +64,7 @@ const pages = [
 
           <h2>Intern at iCIMS</h2>
           <p>2020<br />
-          • Collaborated with intern team to build and deploy a full stack web application<br/>
-          • Gained experience in web development, front end design, MVC architecture, web scraping, web APIs
+          • Build and deployment of full stack web app
           </p>
 
           <h2>Tutor at Mathnasium Learning Center</h2>
@@ -98,9 +90,9 @@ const pages = [
             <h1>Skills</h1>
           </div>
           <h2>Experienced</h2>
-          <p>Java, C#, Python, SQL, Git</p>
+          <p>Java, C#, Python, Bash / Shell, Git, SQL, SQL Server</p>
           <h2>Proficient</h2>
-          <p>C, JavaScript, HTML, CSS, Go</p>
+          <p>C, Go, NodeJS, ReactJS, HTML, CSS, Flutter, Dart</p>
           <h2>Other Software</h2>
           <p>
             Gamemaker Studio, Unity<br />
