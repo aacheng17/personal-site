@@ -31,7 +31,7 @@ const pages = [
           • I'm interested in game design, jazz piano, and philosophies of science<br/><br/>
           This website is my online resume<br/>
           It exists so that I can say that I know JavaScript! Happy reading :)<br/><br/>
-          <a href="https://www.linkedin.com/in/aaron-cheng-b93a711a7/" target="_blank" rel="noopener noreferrer">LinkedIn</a> - <a href="https://github.com/aacheng17" target="_blank" rel="noopener noreferrer">GitHub</a> - <a href="mailto: aacheng17@gmail.com">Email</a> - <a href="https://aaronchengcs.herokuapp.com/favicon.ico" target="_blank" rel="noopener noreferrer">Resume PDF</a>
+          <a href="https://www.linkedin.com/in/aaron-cheng-b93a711a7/" target="_blank" rel="noopener noreferrer">LinkedIn</a> - <a href="https://github.com/aacheng17" target="_blank" rel="noopener noreferrer">GitHub</a> - <a href="mailto: aacheng17@gmail.com">Email</a> - <a href="https://aaronchengcs.herokuapp.com/ChengAaronResume.pdf" target="_blank" rel="noopener noreferrer">Resume PDF</a>
         </div>
       )
     ]
