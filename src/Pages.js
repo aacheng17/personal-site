@@ -25,12 +25,11 @@ const pages = [
         <div>
           <h3>Hi, I'm Aaron. Welcome to my online resume!</h3>
           <b>A bit about me</b><br/>
-          • On weekdays I'm an SDE at AWS<br/>
-          • On weekends I tutor stuff like coding and piano<br/>
+          • I'm a software engineer at Hyperproof<br/>
+          • I used to tutor stuff like coding and piano<br/>
           • (You can see my students' scathing critiques of me <a href="https://tutors.com/nj/sayreville/math-tutors/aaron-cheng-tutoring" target="_blank" rel="noopener noreferrer">here</a>)<br/>
           • I'm interested in game design, jazz piano, and philosophies of science<br/><br/>
-          This website is my online resume<br/>
-          It exists so that I can say that I know JavaScript! Happy reading :)<br/><br/>
+          This website is my online resume! Happy reading :)<br/><br/>
           <a href="https://www.linkedin.com/in/aaron-cheng-b93a711a7/" target="_blank" rel="noopener noreferrer">LinkedIn</a> - <a href="https://github.com/aacheng17" target="_blank" rel="noopener noreferrer">GitHub</a> - <a href="mailto: aacheng17@gmail.com">Email</a> - <a href="https://aaronchengcs.herokuapp.com/ChengAaronResume.pdf" target="_blank" rel="noopener noreferrer">Resume PDF</a>
         </div>
       )
@@ -47,8 +46,13 @@ const pages = [
           <h1>Work</h1>
           </div>
 
+          <h2>Software Engineer at Hyperproof</h2>
+          <p>2022 - Present<br />
+          • Develop in Java, C#, Go, and React
+          </p>
+
           <h2>Software Development Engineer at Amazon Web Services</h2>
-          <p>2021 - Present<br />
+          <p>2021 - 2022<br />
           • Develop in Java and C# to provision SQLServer high-availability database hosting services
           </p>
 
