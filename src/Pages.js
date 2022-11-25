@@ -30,7 +30,7 @@ const pages = [
           • (You can see my students' scathing critiques of me <a href="https://tutors.com/nj/sayreville/math-tutors/aaron-cheng-tutoring" target="_blank" rel="noopener noreferrer">here</a>)<br/>
           • I'm interested in game design, jazz piano, and philosophies of science<br/><br/>
           This website is my online resume! Happy reading :)<br/><br/>
-          <a href="https://www.linkedin.com/in/aaron-cheng-b93a711a7/" target="_blank" rel="noopener noreferrer">LinkedIn</a> - <a href="https://github.com/aacheng17" target="_blank" rel="noopener noreferrer">GitHub</a> - <a href="mailto: aacheng17@gmail.com">Email</a> - <a href="https://aaronchengcs.herokuapp.com/ChengAaronResume.pdf" target="_blank" rel="noopener noreferrer">Resume PDF</a>
+          <a href="https://www.linkedin.com/in/aaron-cheng-b93a711a7/" target="_blank" rel="noopener noreferrer">LinkedIn</a> - <a href="https://github.com/aacheng17" target="_blank" rel="noopener noreferrer">GitHub</a> - <a href="mailto: aacheng17@gmail.com">Email</a> - <a href="https://drive.google.com/drive/u/0/folders/1xerhk576vISiP_rmWC8atil-u3VYzTeo" target="_blank" rel="noopener noreferrer">Resume PDF</a>
         </div>
       )
     ]
@@ -48,12 +48,12 @@ const pages = [
 
           <h2>Software Engineer at Hyperproof</h2>
           <p>2022 - Present<br />
-          • Develop in Java, C#, Go, and React
+          • Full stack development of cloud-based compliance management web app using Java, C#, Golang, TypeScript, React, NodeJS, PostgreSQL
           </p>
 
           <h2>Software Development Engineer at Amazon Web Services</h2>
           <p>2021 - 2022<br />
-          • Develop in Java and C# to provision SQLServer high-availability database hosting services
+          • Backend development for RDS SQL Server Multi-Availability Zone database services using Java, C#, SQL Server
           </p>
 
           <h2>Founder and Tutor of <a href="https://tutors.com/nj/sayreville/math-tutors/aaron-cheng-tutoring" target="_blank" rel="noopener noreferrer">A* Tutoring</a></h2>
@@ -94,9 +94,9 @@ const pages = [
             <h1>Skills</h1>
           </div>
           <h2>Experienced</h2>
-          <p>Java, C#, Python, Bash / Shell, Git, SQL, SQL Server</p>
+          <p>Java, C#, JavaScript (TypeScript, ReactJS), Python, SQL (SQL Server, PostgreSQL), Git</p>
           <h2>Proficient</h2>
-          <p>C, Go, NodeJS, ReactJS, HTML, CSS, Flutter, Dart</p>
+          <p>Golang</p>
           <h2>Other Software</h2>
           <p>
             Gamemaker Studio, Unity<br />
