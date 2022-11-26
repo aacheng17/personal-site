@@ -175,7 +175,7 @@ const pages = [
           </p>
           <h2>Total TKD Sparring</h2>
           <p>
-            WIP full stack web app for collaboratively scoring sparring matches by World Taekwondo guidelines
+            WIP full stack web app for collaboratively scoring sparring matches by World Taekwondo guidelines<br/>
             <a href="https://total-tkd-sparring.herokuapp.com/">Link</a>
           </p>
           <h2>Idiot Boy</h2>
