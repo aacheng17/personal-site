@@ -175,7 +175,7 @@ const pages = [
           </p>
           <h2>Total TKD Sparring</h2>
           <p>
-            WIP full stack web app for collaboratively scoring sparring matches by World Taekwondo guidelines<br/>Build with: Golang, JavaScript, HTML/CSS<br/>
+            WIP full stack web app for collaboratively scoring sparring matches by World Taekwondo guidelines<br/>Built with: Golang, JavaScript, HTML/CSS.<br/>
             <a href="https://total-tkd-sparring.herokuapp.com/">Link</a>
           </p>
           <h2>Idiot Boy</h2>
@@ -201,7 +201,7 @@ const pages = [
           </p>
           <h2>Ratings Site</h2>
           <p>
-            Full stack web app that scrapes and aggregates popular movie data from IMDb, Rotten Tomatoes, and MetaCritic.<br/>Built with: Java Spring, ReactJS, MySQL, Python<br/>
+            Full stack web app that scrapes and aggregates popular movie data from IMDb, Rotten Tomatoes, and MetaCritic.<br/>Built with: Java Spring, ReactJS, MySQL, Python.<br/>
             <a href="https://github.com/aacheng17/RatingsSite" target="_blank" rel="noopener noreferrer">GitHub</a>
           </p>
           <br/>
