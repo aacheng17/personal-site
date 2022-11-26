@@ -173,32 +173,20 @@ const pages = [
             Stylish 3D piano midi file visualizer.<br/>Built with: Unity, C#.<br/>
             <a href="https://www.youtube.com/watch?v=50TrGN4quV4" target="_blank" rel="noopener noreferrer">Watch</a>
           </p>
+          <h2>Total TKD Sparring</h2>
+          <p>
+            WIP full stack web app for collaboratively scoring sparring matches by World Taekwondo guidelines
+            <a href="https://total-tkd-sparring.herokuapp.com/">Link</a>
+          </p>
           <h2>Idiot Boy</h2>
           <p>
             Simple visualization of a spiking neural network that learns to recognize numbers, named for its poor performance during early development.<br/>Built with: Gamemaker Studio.<br/>
             <a href="https://www.youtube.com/watch?v=ArK8bcnidL0" target="_blank" rel="noopener noreferrer">Watch</a>
           </p>
-          <h2>Idiot Mouth</h2>
-          <p>
-            Collection of small online multiplayer browser games.<br/>Built with: Go, JavaScript.<br/>
-            <a href="https://idiotmouth.herokuapp.com" target="_blank" rel="noopener noreferrer">Play</a><br/>
-            <a href="https://github.com/aacheng17/IdiotMouth" target="_blank" rel="noopener noreferrer">GitHub</a>
-          </p>
-          <h2>Mockroach</h2>
-          <p>
-            Browser based bluffing card game. Art by <a href="https://angelinac.pb.online" target="_blank" rel="noopener noreferrer">Angelina Cheng</a>.<br/>Built with: NodeJS, ReactJS.<br/>
-            <a href="https://mockroach.herokuapp.com" target="_blank" rel="noopener noreferrer">Play</a>
-          </p>
           <h2>Personal Site</h2>
           <p>
             The website you're on!<br/>Built with: ReactJS.<br/>
             <a href="https://github.com/aacheng17/personal-site" target="_blank" rel="noopener noreferrer">GitHub</a>
-          </p>
-          <h2>Ratings Site</h2>
-          <p>
-            Full stack web app that scrapes and aggregates popular movie data from IMDb, Rotten Tomatoes, and MetaCritic, developed with two other team members.<br/>Built with: Java Spring, ReactJS, MySQL, Python<br/>
-            <a href="https://ratingssite.azurewebsites.net" target="_blank" rel="noopener noreferrer">Link to site</a><br/>
-            <a href="https://github.com/aacheng17/RatingsSite" target="_blank" rel="noopener noreferrer">GitHub</a>
           </p>
           <h2>BadTranslator</h2>
           <p>
@@ -206,26 +194,15 @@ const pages = [
             <a href="https://badtranslator-284415.web.app/#/" target="_blank" rel="noopener noreferrer">Link</a><br/>
             <a href="https://github.com/aacheng17/BadTranslator" target="_blank" rel="noopener noreferrer">GitHub</a>
           </p>
-          <h2>Steal Shield Stab</h2>
+          <h2>Game Portfolio</h2>
           <p>
-            Rock paper scissors meets 2D fighting game.<br/>Built with: Gamemaker Studio.<br/>
-            <a href="https://aacheng.itch.io/stealshieldstab" target="_blank" rel="noopener noreferrer">itch.io</a>
+            Ongoing personal game development project.<br/>
+            <a href="https://aacheng.itch.io" target="_blank" rel="noopener noreferrer">itch.io</a>
           </p>
-          <h2>TaxiGame</h2>
+          <h2>Ratings Site</h2>
           <p>
-            Minimalist endless taxi driving game.<br/>Built with: Java Swing<br/>
-            <a href="https://aacheng.itch.io/taxigame" target="_blank" rel="noopener noreferrer">itch.io</a><br/>
-            <a href="https://github.com/RyanCirincione/TaxiGame" target="_blank" rel="noopener noreferrer">GitHub</a>
-          </p>
-          <h2>The Cactus</h2>
-          <p>
-            Small platforming game. Don't touch the cactus. Currently under development for release on Steam.<br/>Built with: Gamemaker Studio.<br/>
-            <a href="https://aacheng.itch.io/the-cactus" target="_blank" rel="noopener noreferrer">itch.io</a>
-          </p>
-          <h2>Morse</h2>
-          <p>
-            Minimalistic game about clicking on rectangles at the right time.<br/>Built with: Gamemaker Studio.<br/>
-            <a href="https://aacheng.itch.io/morse" target="_blank" rel="noopener noreferrer">itch.io</a>
+            Full stack web app that scrapes and aggregates popular movie data from IMDb, Rotten Tomatoes, and MetaCritic.<br/>Built with: Java Spring, ReactJS, MySQL, Python<br/>
+            <a href="https://github.com/aacheng17/RatingsSite" target="_blank" rel="noopener noreferrer">GitHub</a>
           </p>
           <br/>
         </div>
