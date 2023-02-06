@@ -26,10 +26,10 @@ const pages = [
           <h3>Hi, I'm Aaron. Welcome to my online resume!</h3>
           <b>A bit about me</b><br/>
           • I'm a software engineer at Hyperproof<br/>
-          • I used to tutor stuff like coding and piano<br/>
+          • Currently working on <a href="https://linktr.ee/totaltkdapp" target="_blank" rel="noopener noreferrer">Total TKD</a>, an app for scoring Tae Kwon Do tournaments<br/>
+          • I also tutor stuff like coding and piano<br/>
           • (You can see my students' scathing critiques of me <a href="https://tutors.com/nj/sayreville/math-tutors/aaron-cheng-tutoring" target="_blank" rel="noopener noreferrer">here</a>)<br/>
           • I'm interested in game design, jazz piano, and philosophies of science<br/><br/>
-          This website is my online resume! Happy reading :)<br/><br/>
           <a href="https://www.linkedin.com/in/aaron-cheng-b93a711a7/" target="_blank" rel="noopener noreferrer">LinkedIn</a> - <a href="https://github.com/aacheng17" target="_blank" rel="noopener noreferrer">GitHub</a> - <a href="mailto: aacheng17@gmail.com">Email</a> - <a href="https://drive.google.com/drive/u/0/folders/1xerhk576vISiP_rmWC8atil-u3VYzTeo" target="_blank" rel="noopener noreferrer">Resume PDF</a>
         </div>
       )
@@ -94,16 +94,16 @@ const pages = [
             <h1>Skills</h1>
           </div>
           <h2>Experienced</h2>
-          <p>Java, C#, JavaScript (TypeScript, ReactJS), Python, SQL (SQL Server, PostgreSQL), Git</p>
+          <p>Experienced – Java, C#, Python, JavaScript (TypeScript, ReactJS, NodeJS), SQL (SQL Server, PostgreSQL, MySQL), Git</p>
           <h2>Proficient</h2>
-          <p>Golang</p>
+          <p>Golang, C, C++</p>
           <h2>Other Software</h2>
           <p>
-            Gamemaker Studio, Unity<br />
-            Reaper, Audacity, Finale<br />
-            Adobe Premiere, NCH Videopad Editor, Inkscape Vector Graphics<br />
-            Blender, Autodesk Inventor<br/>
+            Unity3D, Gamemaker Studio<br />
             Flutter, Dart<br/>
+            Adobe Premiere, NCH Videopad Editor, Inkscape Vector Graphics<br />
+            Reaper, Audacity, Finale, Musescore<br />
+            Blender, Autodesk Inventor<br/>
           </p>
           <br/>
         </div>
@@ -173,31 +173,31 @@ const pages = [
             Stylish 3D piano midi file visualizer.<br/>Built with: Unity, C#.<br/>
             <a href="https://www.youtube.com/watch?v=50TrGN4quV4" target="_blank" rel="noopener noreferrer">Watch</a>
           </p>
-          <h2>Total TKD Sparring</h2>
+          <h2>Total TKD</h2>
           <p>
-            WIP full stack web app for collaboratively scoring sparring matches by World Taekwondo guidelines<br/>Built with: Golang, JavaScript, HTML/CSS.<br/>
-            <a href="https://total-tkd-sparring.herokuapp.com/">Link</a>
-          </p>
-          <h2>Idiot Boy</h2>
-          <p>
-            Simple visualization of a spiking neural network that learns to recognize numbers, named for its poor performance during early development.<br/>Built with: Gamemaker Studio.<br/>
-            <a href="https://www.youtube.com/watch?v=ArK8bcnidL0" target="_blank" rel="noopener noreferrer">Watch</a>
+            Mobile and web app for scoring Tae Kwon Do tournaments with multiple networked judges<br/>Built with: Golang, JavaScript, HTML/CSS.<br/>
+            <a href="https://linktr.ee/totaltkdapp">Link</a>
           </p>
           <h2>Personal Site</h2>
           <p>
             The website you're on!<br/>Built with: ReactJS.<br/>
             <a href="https://github.com/aacheng17/personal-site" target="_blank" rel="noopener noreferrer">GitHub</a>
           </p>
-          <h2>BadTranslator</h2>
+          <h2>Idiot Boy</h2>
           <p>
-          Website and back end API for laughably bad translations.<br/>Built with: Flutter and Dart, NodeJS. Uses the Google Translate API.<br/>
-            <a href="https://badtranslator-284415.web.app/#/" target="_blank" rel="noopener noreferrer">Link</a><br/>
-            <a href="https://github.com/aacheng17/BadTranslator" target="_blank" rel="noopener noreferrer">GitHub</a>
+            Simple visualization of a spiking neural network that learns to recognize numbers, named for its poor performance during early development.<br/>Built with: Gamemaker Studio.<br/>
+            <a href="https://www.youtube.com/watch?v=ArK8bcnidL0" target="_blank" rel="noopener noreferrer">Watch</a>
           </p>
           <h2>Game Portfolio</h2>
           <p>
             Ongoing personal game development project.<br/>
             <a href="https://aacheng.itch.io" target="_blank" rel="noopener noreferrer">itch.io</a>
+          </p>
+          <h2>BadTranslator</h2>
+          <p>
+          Small website for generating laughably bad translations.<br/>Built with: Flutter and Dart, NodeJS. Uses the Google Translate API.<br/>
+            <a href="https://badtranslator-284415.web.app/#/" target="_blank" rel="noopener noreferrer">Link</a><br/>
+            <a href="https://github.com/aacheng17/BadTranslator" target="_blank" rel="noopener noreferrer">GitHub</a>
           </p>
           <h2>Ratings Site</h2>
           <p>
